@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 20px;
+}
+nav{
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 6px 40px 6px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+nav .navLogo h2{
+    font-family: 'Poppins', sans-serif;
+    color: #2d2e32;
+    cursor: pointer;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+nav .navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .navLinks ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+nav .navLinks ul li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+nav .navLinks ul li a{
+    text-decoration: none;
+    color: #2d2e32;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+
+}

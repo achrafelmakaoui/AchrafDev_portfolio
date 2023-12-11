@@ -1,9 +1,15 @@
-
+import LandPage from "./components/LandingPage/LandPage";
+import AboutPage from "./components/AboutPage/AboutPage";
+import SkillsPage from "./components/SkillsPage/SkillsPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome To Achraf ELMAKAOUI Portfolio</h1>
+      <>
+        <LandPage/>
+        <AboutPage/>
+        <SkillsPage/>
+      </>
     </div>
   );
 }
