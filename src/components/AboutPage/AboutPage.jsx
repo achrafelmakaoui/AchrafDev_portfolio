@@ -3,11 +3,13 @@ import './AboutPage.css'
 import CircleAnimation from '../images/circle-animation copy.svg'
 import Developer from '../images/developer.jpg'
 import TechMale from '../images/male-technologist.png'
+import AdLogo from '../images/logo - white.png'
+
 
 const AboutPage = () => {
   return (
-    <section className="about" id="about">
-        <div className="conttainer">
+    <section className="about" id="About">
+        <div className="AboutContainer">
             <div className="about-content">
                 <div className="img-side">
                     <img src={TechMale} alt="emoji" className="work-emoji"/>
@@ -15,10 +17,12 @@ const AboutPage = () => {
                     <span>
                         <img src={CircleAnimation} alt="text"/>
                     </span>
+                    <div className='AchrafWaterMak'><img src={AdLogo} alt="text"/></div>
+                    
                 </div>
                 <div className="text-side">
                     <h3>About me</h3>
-                    <h4>A dedicated Full Stack Developer based in Laâyoune, Maroc 📍</h4>
+                    <h4>A dedicated Full Stack Dev & Data Scientist based in Laâyoune, Maroc 📍</h4>
                     <p>
                     As a versatile Full Stack Web Developer, I seamlessly handle both frontend (HTML, CSS, JavaScript, React.js, Bootstrap)
                     and backend (Python, PHP, Laravel, Express, MongoDB, SQL, MySQL) technologies, ensuring the creation of responsive and

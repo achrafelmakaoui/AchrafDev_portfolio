@@ -1,10 +1,10 @@
 .skills-section{
     background-color: #fff;
 }
-.conttainer{
+.SkillsContainer{
     margin: 0 auto;
     max-width: 107rem;
-    padding: 0 4rem;
+    padding: 125px 4rem;
 }
 .skills-content h3{
     color: #147efb;
@@ -29,6 +29,7 @@
     padding: 8px 6px;
     border-radius: 0.75rem;
     border: 1px dashed #2d2e3234;
+    width: 50%;
 }
 
 .custom-button {
@@ -38,7 +39,7 @@
     text-align: center;
     cursor: pointer;
     border-radius: 0.40rem;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     color: #2d2e32;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -47,7 +48,7 @@
     background-color: white;
 }
 .custom-button.active {
-    background-color: #1480fba1;
+    background-color: #1480fbbb;
     color: white;
 }
 .skillsLogos {
@@ -56,9 +57,14 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 50px 0px;
-    gap: 20px;
+    gap: 30px;
 }
-
+.skillsLogos .skillsLogosItems{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .skillsLogos span {
     width: 100px;
     height: 100px;
@@ -70,7 +76,17 @@
 }
 
 .skillsLogos span img {
-    width: 75%;
-    height: 75%;
-    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    aspect-ratio: 3/1;
+    object-fit: contain;
+}
+.skillsLogos .skillsLogosItems h2{
+    color: #2d2e32;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

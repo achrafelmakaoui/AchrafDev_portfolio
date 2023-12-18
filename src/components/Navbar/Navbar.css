@@ -25,8 +25,8 @@ html {
 }
 nav{
     align-items: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0,0,0,.09); */
     display: flex;
     font-size: 1.7rem;
     height: auto;
@@ -37,8 +37,16 @@ nav{
     top: 0;
     width: 100%;
     z-index: 999;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    background-color: rgba(225, 225, 225, 0.1);
+    border: 1px solid transparent;
+    backdrop-filter: blur(.5rem);
+    box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.3);
 }
-nav .navLogo h2{
+nav .navLogo{
+    display: flex;
+}
+/* nav .navLogo h2{
     font-family: 'Poppins', sans-serif;
     color: #2d2e32;
     cursor: pointer;
@@ -49,6 +57,10 @@ nav .navLogo h2{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+} */
+nav .navLogo img{
+    width: 55px;
+    padding: 0;
 }
 nav .navLinks{
     display: flex;

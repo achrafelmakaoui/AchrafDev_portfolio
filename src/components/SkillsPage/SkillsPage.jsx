@@ -28,7 +28,7 @@ const SkillsPage = () => {
         setDataSkills(false)
 
     }
-    else if(category==='BigData'){
+    else if(category==='Big Data'){
         setDataSkills(true)
         setBackedSkills(false);
         setFrontendSkills(false);
@@ -43,8 +43,8 @@ const SkillsPage = () => {
   };
 
   return (
-    <section className='skills-section' id='skills'>
-      <div className="container">
+    <section className='skills-section' id='Skills'>
+      <div className="SkillsContainer">
         <div className="skills-content">
           <h3>Skills</h3>
           <h4>Each skill is a building block in my professional toolkit 🛠️.</h4>
@@ -63,10 +63,10 @@ const SkillsPage = () => {
             Backend
           </span>
           <span
-            className={`custom-button capitalize ${activeCategory === 'BigData' ? 'active' : ''}`}
-            onClick={() => handleCategoryClick('BigData')}
+            className={`custom-button capitalize ${activeCategory === 'Big Data' ? 'active' : ''}`}
+            onClick={() => handleCategoryClick('Big Data')}
           >
-            BigData
+            Big Data
           </span>
           <span
             className={`custom-button capitalize ${activeCategory === 'Others' ? 'active' : ''}`}
@@ -78,52 +78,158 @@ const SkillsPage = () => {
         <div className='skillsLogos'>
             {FrontendSkills && 
                 <>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Html5} alt='Html5'/></span>
+                    <h2>Html5</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Css3} alt='Css3'/></span>
+                    <h2>Css3</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Bootstrap} alt='Bootstrap'/></span>
+                    <h2>Bootstrap</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Js} alt='Js'/></span>
+                    <h2>Javascript</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Jquery} alt='Jquery'/></span>
+                    <h2>Jquery</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.ReactJs} alt='ReactJs'/></span>
+                    <h2>ReactJs</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Redux} alt='Redux'/></span>
+                    <h2>Redux</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Ts} alt='Ts'/></span>
+                    <h2>Typescript</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Tailwind} alt='Tailwind'/></span>
-                    <span><img src={FrontSkillsImages.MaterialUI} alt='MaterialUi'/></span>
+                    <h2>Tailwind</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={FrontSkillsImages.MaterialUI} alt='MaterialUI'/></span>
+                    <h2>MaterialUI</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.NextJs} alt='NextJs'/></span>
+                    <h2>NextJs</h2>
+                  </div>
                 </>
             }
             {BackedSkills && 
                 <>
+                  <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Mysql} alt='Mysql'/></span>
+                    <h2>Mysql</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Php} alt='Php'/></span>
+                    <h2>Php</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Laravel} alt='Laravel'/></span>
-                    <span><img src={BackSkillsImages.Nodejs} alt='Nodejs'/></span>
+                    <h2>Laravel</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={BackSkillsImages.Nodejs} alt='NodeJs'/></span>
+                    <h2>NodeJs</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Express} alt='Express'/></span>
-                    <span><img src={BackSkillsImages.Mongodb} alt='Mongodb'/></span>
-                    <span><img src={BackSkillsImages.Cassandra} alt='Cassandra'/></span>
-                    <span><img src={BackSkillsImages.Hbase} alt='Hbase'/></span>
+                    <h2>Express</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={BackSkillsImages.Mongodb} alt='MongoDb'/></span>
+                    <h2>Mongodb</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Redis} alt='Redis'/></span>
+                    <h2>Redis</h2>
+                  </div>
                 </>
             }
             {DataSkills && 
                 <>
-                    <span><img src={DataSkillsImages.Hadoop} alt='Hadoop'/></span>
-                    <span><img src={DataSkillsImages.Scoop} alt='Scoop'/></span>
-                    <span><img src={DataSkillsImages.Spark} alt='Spark'/></span>
-                    <span><img src={DataSkillsImages.Mapreduce} alt='Mapreduce'/></span>
-                    <span><img src={DataSkillsImages.Kafka} alt='Kafka'/></span>
-                    <span><img src={DataSkillsImages.Hdfs} alt='Hdfs'/></span>
-                    <span><img src={DataSkillsImages.PowerBi} alt='PowerBi'/></span>
-                    <span><img src={BackSkillsImages.Python} alt='Python'/></span>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hadoop} alt='Hadoop'/></span>
+                    <h2>Hadoop</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Scoop} alt='Scoop'/></span>
+                    <h2>Scoop</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Spark} alt='Spark'/></span>
+                    <h2>Spark</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Mapreduce} alt='Mapreduce'/></span>
+                    <h2>Map Reduce</h2>
+                    </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Kafka} alt='Kafka'/></span>
+                    <h2>Kafka</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hdfs} alt='Hdfs'/></span>
+                    <h2>Hdfs</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={DataSkillsImages.Hive} alt='Hive'/></span>
+                    <h2>Hive</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={BackSkillsImages.Cassandra} alt='Cassandra'/></span>
+                    <h2>Cassandra</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={BackSkillsImages.Hbase} alt='Hbase'/></span>
+                    <h2>Hbase</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'115px',height:'115px'}} src={DataSkillsImages.PowerBi} alt='PowerBi'/></span>
+                    <h2>PowerBi</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} alt='Python'/></span>
+                    <h2>Python</h2>
+                  </div>
                 </>
             }
             {OtherSkills && 
                 <>
+                  <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.Netlify} alt='Netlify'/></span>
-                    <span><img src={OtherSkillsImages.Vercel} alt='Vercel'/></span>
+                    <h2>Netlify</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Vercel} alt='Vercel'/></span>
+                    <h2>Vercel</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.Git} alt='Git'/></span>
+                    <h2>Git</h2>
+                  </div>  
+                  <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.Github} alt='Github'/></span>
+                    <h2>Github</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.Docker} alt='Docker'/></span>
-                    <span><img src={OtherSkillsImages.VirtualBox} alt='ReactJs'/></span>
+                    <h2>Docker</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={OtherSkillsImages.VirtualBox} alt='VirtualBox'/></span>
+                    <h2>VirtualBox</h2>
+                  </div>
                 </>
             }
         </div>

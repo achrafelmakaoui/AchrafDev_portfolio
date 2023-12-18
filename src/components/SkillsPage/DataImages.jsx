@@ -6,6 +6,7 @@ import PowerBi from '../images/BigDataSkills/Power-BI-Symbol.png'
 import Spark from '../images/BigDataSkills/apache-spark.png'
 import Hdfs from '../images/BigDataSkills/hdfs.png'
 import Mapreduce from '../images/BigDataSkills/map-reduce.png'
+import Hive from '../images/BigDataSkills/Apache_Hive_logo.svg.png'
 
 const DataSkillsImages = {
     Hadoop: Hadoop,
@@ -15,5 +16,6 @@ const DataSkillsImages = {
     Kafka: Kafka,
     Hdfs: Hdfs,
     PowerBi: PowerBi,
+    Hive: Hive
 };
 export default DataSkillsImages;

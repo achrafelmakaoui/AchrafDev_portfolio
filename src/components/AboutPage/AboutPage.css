@@ -6,10 +6,10 @@ section {
     background-color: #fff;
     padding: 15rem 0;
 }
-.conttainer {
+.AboutContainer{
     margin: 0 auto;
     max-width: 107rem;
-    padding: 0 4rem;
+    padding: 50px 4rem;
 }
 .about-content {
     align-items: center;
@@ -46,6 +46,17 @@ section {
     animation: rotate 9s linear infinite;
     width: 19rem;
 }
+.img-side .AchrafWaterMak{
+    position: absolute;
+}
+.img-side .AchrafWaterMak img{
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+
+}
 @keyframes rotate {
     100% {
         -webkit-transform: rotate(1turn);
@@ -54,7 +65,7 @@ section {
 }
 
 .text-side {
-    padding-right: 1.5rem;
+    /* padding-right: 1.5rem; */
 }
 .text-side h3 {
     color: #147efb;
