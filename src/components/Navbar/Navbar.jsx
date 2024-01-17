@@ -7,7 +7,6 @@ const Navbar = () => {
     <nav>
         <div className="navLogo">
             <img src={AdbLogo} alt="text"/>
-            {/* <h2>Achraf.dev</h2> */}
         </div>
         <div className="navLinks">
             <ul>
@@ -16,7 +15,7 @@ const Navbar = () => {
                 <li><a href='/#Career'>Career</a></li>
                 <li><a href='/#Skills'>Skills</a></li>
                 <li><a href='/#Projects'>Projects</a></li>
-                <li><a href='/#'>Contact</a></li>
+                <li><a href='/#Contact'>Contact</a></li>
             </ul>
         </div>
     </nav>

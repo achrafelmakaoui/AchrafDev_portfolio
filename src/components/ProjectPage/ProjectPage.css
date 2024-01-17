@@ -1,6 +1,7 @@
 .Projects{
     background-color: #f9f9f9;
-    height: 100vh;
+    height: fit-content;
+    min-height: 110vh;
 }
 .ProjectsContainer{
     margin: 0 auto;
@@ -32,7 +33,7 @@
     padding: 8px 6px;
     border-radius: 0.75rem;
     border: 1px dashed #2d2e3234;
-    width: 60%;
+    width: 50%;
 }
 
 .custom-button-projects {
@@ -56,14 +57,15 @@
 }
 
 .projects-grid{
-    grid-gap: 5rem;
+    /* grid-gap: 5rem; */
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     height: auto;
     width: 100%;
     padding-top: 35px;
+    flex-wrap: wrap;
 }
 .projects-grid .pro__1 {
     gap: 8rem;
@@ -74,7 +76,7 @@
     background-color: #fff;
     border-radius: 0.75rem;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
-    width: 33.33%;
+    width: 31%;
 }
 .projects-grid .pro__img {
     filter: brightness(98%);
@@ -116,6 +118,6 @@ h3 {
     font-weight: 500;
     text-align: start;
     text-transform: none;
-    width: 95%;
+    width: 86%;
 }
 

@@ -9,24 +9,15 @@ import Nfts from '../images/nfts.png'
 import ParllaxSite from '../images/parllaxSite.png'
 import FootballStat from '../images/ftbs.png'
 const ProjectPage = () => {
-  const [activeCategory, setActiveCategory] = useState('Mern Stack');
-  const [MernStack, setMernStack] = useState(true);
-  const [Web, setWeb] = useState(false);
+  const [activeCategory, setActiveCategory] = useState('Web');
+  const [Web, setWeb] = useState(true);
   const [DataScience, setDataScience] = useState(false);
   const [OtherProjects, setOtherProjects] = useState(false);
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
-    if(category==='Mern Stack'){
-        setMernStack(true);
-        setWeb(false);
-        setOtherProjects(false);
-        setDataScience(false);
-
-    }
-    else if(category==='Web'){
+    if(category==='Web'){
         setWeb(true);
-        setMernStack(false);
         setOtherProjects(false);
         setDataScience(false);
 
@@ -34,12 +25,10 @@ const ProjectPage = () => {
     else if(category==='Data Science'){
         setDataScience(true)
         setWeb(false);
-        setMernStack(false);
         setOtherProjects(false);
     }
     else{
         setOtherProjects(true);
-        setMernStack(false);
         setWeb(false);
         setDataScience(false)
     }
@@ -52,12 +41,6 @@ const ProjectPage = () => {
           <h4>Each project is a unique piece of development 🧩</h4>
         </div>
         <div className='projects-categ'>
-          <span
-            className={`custom-button-projects capitalize ${activeCategory === 'Mern Stack' ? 'active' : ''}`}
-            onClick={() => handleCategoryClick('Mern Stack')}
-          >
-            Mern Stack
-          </span>
           <span
             className={`custom-button-projects capitalize ${activeCategory === 'Web' ? 'active' : ''}`}
             onClick={() => handleCategoryClick('Web')}
@@ -78,67 +61,63 @@ const ProjectPage = () => {
           </span>
         </div>
         <div className='projects-grid'>
-          {MernStack &&
+          {Web &&
             <>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={EcommerceApp} alt="website"/>
                   </a>
                 </div>
                 <div class="pro__text">
                   <h3>Sneakers Store</h3>
-                  <p>Easy shoe shopping for women and men, diverse choices in each model. 
-                    24/7 support, cart for orders, Stripe payment testing. Step into our online shoes! 
+                  <p>Easy shoe shopping for women and men, diverse model choices. 
+                    24/7 support, orders cart, Stripe payment testing. Step into our online shoes! 
                   </p>
                 </div>
               </div>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={EcomDash} alt="website"/>
                   </a>
                 </div>
                 <div class="pro__text">
                   <h3>Sneakers Dashboard</h3>
-                  <p>Sneakers App Dashboard: Dev-friendly control for products, users, and orders. Streamlined e-commerce management,
-                    user-friendly and flexible.
+                  <p>Sneakers App Dashboard: Dev-friendly products control, users, orders. Streamlined e-commerce management,
+                     flexible user-friendly.
                   </p>
                 </div>
               </div>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={OneeDash} alt="website"/>
                   </a>
                 </div>
                 <div class="pro__text">
                   <h3>Onee Dashboard</h3>
-                  <p>App de Gestion commercial au sein de la direction régionale de 
-                    Laâyoune - conception d'un tableau de bord pour les indicateurs de performance pour la DR08
+                  <p>Commercial Management App for ONEE - Branche Électricité Laâyoune,
+                     Development of a Dashboard for performance indicators for DR08.
                   </p>
                 </div>
               </div>
-            </>
-          }
-          {Web &&
-            <>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={BloodDon} alt="website"/>
                   </a>
                 </div>
                 <div class="pro__text">
                   <h3>Blood Doantion</h3>
                   <p>Lifesaver Connect: App helps individuals in need of blood easily to find donors in their city, 
-                     platform that stream lining the process of life-saving donations. 
+                     platform that stream lining life-saving donations. 
                   </p>
                 </div>
               </div>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={RedisDash} alt="website"/>
                   </a>
                 </div>
@@ -155,7 +134,7 @@ const ProjectPage = () => {
             <>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={FootballStat} alt="website"/>
                   </a>
                 </div>
@@ -172,7 +151,7 @@ const ProjectPage = () => {
             <>
                 <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={Nfts} alt="website"/>
                   </a>
                 </div>
@@ -185,7 +164,7 @@ const ProjectPage = () => {
               </div>
               <div class="pro pro__1 undefined">
                 <div class="pro__img">
-                  <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                  <a target="_blank" href="/#" rel="noreferrer">
                     <img src={ParllaxSite} alt="website"/>
                   </a>
                 </div>

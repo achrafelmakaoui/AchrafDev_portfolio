@@ -64,9 +64,9 @@ section {
     }
 }
 
-.text-side {
-    /* padding-right: 1.5rem; */
-}
+/* .text-side {
+    padding-right: 1.5rem;
+} */
 .text-side h3 {
     color: #147efb;
     font-size: 1.7rem;

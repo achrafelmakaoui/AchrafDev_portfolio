@@ -1,0 +1,247 @@
+.contact{
+    background-color: #ffffff;
+    height: 110vh;
+}
+.ContactContainer{
+    margin: 0 auto;
+    padding: 120px 4rem 25px 4rem;
+    max-width: 107rem;
+}
+
+.contact-content h3{
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.contact-content h4 {
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+.Contact-desFor{
+    width: 100%;
+}
+.Contact-Items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ContactImg{
+    display: grid;
+    width: 45%;
+    gap: 10px;
+    /* background-color: #147efb; */
+}
+.ContactImg .ContactImgBnner{
+    width: 100%;
+}
+.ContactImg .ContactImgBnner img{
+    width:100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+}
+
+.ContactImg .ContactEmailBnner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 65px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+}
+.ContactImg .ContactEmailBnner .CircleIconEmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E6EDF7;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.ContactImg .ContactEmailBnner .LnkEmail h2{
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 1.6rem;
+}
+.ContactImg .ContactEmailBnner .LnkEmail h4{
+    color: #2d2e32d9;
+    font-family: Poppins,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+/* ///////////////////// */
+.ContactImg .ContactPhoneBnner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 65px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+}
+.ContactImg .ContactPhoneBnner .CircleIconPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E6EDF7;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.ContactImg .ContactPhoneBnner .NbrPhone h2{
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 1.6rem;
+}
+.ContactImg .ContactPhoneBnner .NbrPhone h4{
+    color: #2d2e32d9;
+    font-family: Poppins,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.ContactForm{
+    width: 50%;
+}
+.ContactForm h4{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+.ContactForm form{
+    width: 100%;
+}
+.ContactForm form .formName{
+    display: grid;
+    width: 100%;
+}
+.ContactForm form .formName label{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.ContactForm form .formName input{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 5px 5px 10px 26px;
+    margin-bottom: 3rem;
+    max-width: 85%;
+    border-radius:1px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid ;
+}
+.ContactForm form .formName .UserIcon{
+    color: #767676;
+    font-size: 1.5rem;
+    padding-right: 5px;
+    position: absolute;
+    translate: 10% 180%;
+    pointer-events: none;
+
+}
+.ContactForm form .formEmail{
+    display: grid;
+}
+.ContactForm form .formEmail label{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.ContactForm form .formEmail input{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 5px 5px 10px 26px;
+    margin-bottom: 3rem;
+    max-width: 85%;
+    border-radius:1px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #767676;
+}
+.ContactForm form .formEmail .Envolope{
+    color: #767676;
+    font-size: 1.5rem;
+    padding-right: 5px;
+    position: absolute;
+    translate: 10% 180%;
+    pointer-events: none;
+
+}
+.ContactForm form .formMessage{
+    display: grid;
+}
+
+.ContactForm form .formMessage label{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.ContactForm form .formMessage textarea{
+    color: #2d2e32;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 5px 5px 10px 26px;
+    margin-bottom: 4rem;
+    max-width: 85%;
+    border-radius:1px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #767676;
+}
+.ContactForm form .formMessage .EnvelopeText{
+    color: #767676;
+    font-size: 1.5rem;
+    padding-right: 5px;
+    position: absolute;
+    translate: 10% 180%;
+    pointer-events: none;
+}
+.ContactForm form button{
+    padding: 8px 10px;
+    color: #147efb;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.4rem;
+    line-height: 0.5;
+    border: 1px solid #147efb;
+    border-radius: 3px;
+    background-color:white;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 0 10px #1480fb13;
+}
+.ContactForm form button .paperEmail{
+    padding: 0px 8px 0px 0px;
+}
+.ContactForm form button:hover{
+    color: white;
+    background-color: #147efb;
+    border: 1px solid #147efb;
+    box-shadow: 0 0 10px #1480fb2a;
+
+}

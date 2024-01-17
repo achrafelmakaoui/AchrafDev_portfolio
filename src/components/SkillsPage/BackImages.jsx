@@ -10,6 +10,7 @@ import Cassandra from '../images/Back-skills/Cassandra_logo.svg.png'
 import Hbase from '../images/Back-skills/hbase.png'
 import Redis from '../images/Back-skills/redis-logo.svg'
 
+
 const BackSkillsImages = {
     Express: Express,
     Mongodb: Mongodb,

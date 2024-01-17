@@ -107,10 +107,6 @@ const SkillsPage = () => {
                     <h2>Redux</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Ts} alt='Ts'/></span>
-                    <h2>Typescript</h2>
-                  </div>
-                  <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Tailwind} alt='Tailwind'/></span>
                     <h2>Tailwind</h2>
                   </div>
@@ -163,20 +159,16 @@ const SkillsPage = () => {
                     <h2>Hadoop</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Scoop} alt='Scoop'/></span>
+                    <span><img style={{ width:'80px',height:'90px'}} src={DataSkillsImages.Scoop} alt='Scoop'/></span>
                     <h2>Scoop</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Spark} alt='Spark'/></span>
+                    <span><img style={{ width:'80px',height:'90px'}} src={DataSkillsImages.Spark} alt='Spark'/></span>
                     <h2>Spark</h2>
                   </div>
                   <div className='skillsLogosItems'>
                     <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Mapreduce} alt='Mapreduce'/></span>
                     <h2>Map Reduce</h2>
-                    </div>
-                  <div className='skillsLogosItems'>
-                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Kafka} alt='Kafka'/></span>
-                    <h2>Kafka</h2>
                   </div>
                   <div className='skillsLogosItems'>
                     <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hdfs} alt='Hdfs'/></span>
@@ -191,16 +183,24 @@ const SkillsPage = () => {
                     <h2>Cassandra</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Hbase} alt='Hbase'/></span>
+                    <span><img style={{ width:'90px',height:'70px'}}  src={BackSkillsImages.Hbase} alt='Hbase'/></span>
                     <h2>Hbase</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'115px',height:'115px'}} src={DataSkillsImages.PowerBi} alt='PowerBi'/></span>
+                    <span><img style={{ width:'80px',height:'60px'}} src={DataSkillsImages.PowerBi} alt='PowerBi'/></span>
                     <h2>PowerBi</h2>
                   </div>
                   <div className='skillsLogosItems'>
                     <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} alt='Python'/></span>
                     <h2>Python</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={DataSkillsImages.Numpy} alt='numpy'/></span>
+                    <h2>Numpy</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={DataSkillsImages.Pandas} alt='pandas'/></span>
+                    <h2>Pandes</h2>
                   </div>
                 </>
             }

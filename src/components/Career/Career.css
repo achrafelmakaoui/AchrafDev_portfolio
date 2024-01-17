@@ -1,6 +1,7 @@
 .career-section{
     background-color: #f9f9f9;
-    height: 100vh;
+    height: 125vh;
+    /* height: fit-content; */
 }
 .CareerContainer{
     margin: 0 auto;
@@ -22,8 +23,15 @@
     line-height: 1.4;
     margin-bottom: 2rem;
 }
+.Career-categ-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Career-categ{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     background-color: #ffffff;
     width: fit-content;

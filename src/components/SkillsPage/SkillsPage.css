@@ -69,7 +69,8 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #dfd8d8be;
+    background-color: #ffffffbe;
+    border: 3px dashed #dfd8d8be;
     display: flex;
     justify-content: center;
     align-items: center;
