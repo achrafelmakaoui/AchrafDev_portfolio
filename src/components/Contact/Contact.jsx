@@ -71,17 +71,17 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='formName'>
                                 <label>First Name</label>
-                                <input type="text" placeholder='First Name...' name="user_name" />
+                                <input type="text" placeholder='First Name...' name="user_name" required/>
                                 <FontAwesomeIcon icon={faCircleUser} className='UserIcon' />
                             </div>
                             <div className='formEmail'>
                                 <label>Email Address</label>
-                                <input type="email" placeholder='Email Addres...' name="user_email" />
+                                <input type="email" placeholder='Email Addres...' name="user_email" required/>
                                 <FontAwesomeIcon icon={faEnvelopeOpen} className='Envolope' />
                             </div>
                             <div className='formMessage'>
                                 <label>Message</label>
-                                <textarea placeholder='Leave me a message...' name="message" />
+                                <textarea placeholder='Leave me a message...' name="message" required/>
                                 <FontAwesomeIcon icon={faEnvelopeOpenText} className='EnvelopeText' />
                             </div>
                             <button type='submit'>

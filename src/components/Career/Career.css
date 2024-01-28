@@ -1,11 +1,11 @@
 .career-section{
-    background-color: #f9f9f9;
+    background-color: var(--background-color_g);
     height: 125vh;
     /* height: fit-content; */
 }
 .CareerContainer{
     margin: 0 auto;
-    padding: 120px 4rem 25px 4rem;
+    padding: 115px 4rem 25px 4rem;
     max-width: 107rem;
 }
 
@@ -17,7 +17,7 @@
     text-transform: uppercase;
 }
 .career-content h4 {
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 2.5rem;
     line-height: 1.4;
@@ -33,11 +33,11 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: #ffffff;
+    background-color: var(--background-color_w);
     width: fit-content;
     padding: 8px 6px;
     border-radius: 0.75rem;
-    border: 1px dashed #2d2e3234;
+    border: 2px dashed var(--land_b);
     /* width: 60%; */
 }
 
@@ -49,12 +49,12 @@
     cursor: pointer;
     border-radius: 0.40rem;
     transition: all 0.2s ease;
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 .custom-button-career:hover {
-    background-color: #f9f9f9;
+    background-color: var(--background-color_g);
 }
 .custom-button-career.active {
     background-color: #1480fbbb;

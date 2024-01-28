@@ -9,7 +9,7 @@ const Education = () => {
                 <li className='timelineli'>
                     <div class="timeline-content">
                         <h1>USMS ESTFBS - LP ITADM (BIG DATA)</h1>
-                        <h3>Data Scientist | <mark style={{color:'#e3971c',backgroundColor:'#fccf3baf',padding:'1px 4px',fontSize:'13px',borderRadius:'2px'}}>In Progress...</mark></h3>
+                        <h3>Data Scientist | <mark className='markprogress'>In Progress...</mark></h3>
                         <ul className='educationitem'>
                             <li>
                                 <span>Data Cleaning and Preprocessing</span>

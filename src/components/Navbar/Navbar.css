@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #fff;
     font-family: 'Poppins',sans-serif;
     position: relative;
 }
@@ -13,20 +12,17 @@ html {
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #8e8e8e;
+    background-color: var(--color);
     border-radius: 20px;
 }
 ::-webkit-scrollbar-track {
-    background-color: #fff;
-    border-radius: 20px;
+    background-color: var(--background-color_g);
 }
 nav{
     align-items: center;
-    /* background-color: #fff; */
-    /* box-shadow: 0 0 10px rgba(0,0,0,.09); */
     display: flex;
     font-size: 1.7rem;
     height: auto;
@@ -42,9 +38,11 @@ nav{
     border: 1px solid transparent;
     backdrop-filter: blur(.5rem);
     box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.3);
+    flex: 3;
 }
 nav .navLogo{
     display: flex;
+    width: 50%;
 }
 /* nav .navLogo h2{
     font-family: 'Poppins', sans-serif;
@@ -59,13 +57,14 @@ nav .navLogo{
     font-weight: bold;
 } */
 nav .navLogo img{
-    width: 55px;
+    width: 40px;
     padding: 0;
 }
 nav .navLinks{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 45%;
 }
 nav .navLinks ul{
     display: block;
@@ -85,9 +84,19 @@ nav .navLinks ul li{
 }
 nav .navLinks ul li a{
     text-decoration: none;
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     font-weight: 600;
 
+}
+.darkmode_toggele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 5%;
+}
+.darkmode_toggele svg{
+    cursor: pointer;
 }

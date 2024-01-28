@@ -4,6 +4,7 @@ import FrontSkillsImages from './FrontImages';
 import BackSkillsImages from './BackImages';
 import DataSkillsImages from './DataImages';
 import OtherSkillsImages from './OtherImages';
+import { motion } from "framer-motion";
 
 const SkillsPage = () => {
   const [activeCategory, setActiveCategory] = useState('Frontend');
@@ -77,7 +78,13 @@ const SkillsPage = () => {
         </div>
         <div className='skillsLogos'>
             {FrontendSkills && 
-                <>
+                <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
                   <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Html5} alt='Html5'/></span>
                     <h2>Html5</h2>
@@ -118,10 +125,16 @@ const SkillsPage = () => {
                     <span><img src={FrontSkillsImages.NextJs} alt='NextJs'/></span>
                     <h2>NextJs</h2>
                   </div>
-                </>
+                </motion.div>
             }
             {BackedSkills && 
-                <>
+                <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
                   <div className='skillsLogosItems'>
                     <span><img src={BackSkillsImages.Mysql} alt='Mysql'/></span>
                     <h2>Mysql</h2>
@@ -150,10 +163,16 @@ const SkillsPage = () => {
                     <span><img src={BackSkillsImages.Redis} alt='Redis'/></span>
                     <h2>Redis</h2>
                   </div>
-                </>
+                </motion.div>
             }
             {DataSkills && 
-                <>
+                <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
                   <div className='skillsLogosItems'>
                     <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hadoop} alt='Hadoop'/></span>
                     <h2>Hadoop</h2>
@@ -202,10 +221,16 @@ const SkillsPage = () => {
                     <span><img src={DataSkillsImages.Pandas} alt='pandas'/></span>
                     <h2>Pandes</h2>
                   </div>
-                </>
+                </motion.div>
             }
             {OtherSkills && 
-                <>
+                <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
                   <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.Netlify} alt='Netlify'/></span>
                     <h2>Netlify</h2>
@@ -230,7 +255,7 @@ const SkillsPage = () => {
                     <span><img src={OtherSkillsImages.VirtualBox} alt='VirtualBox'/></span>
                     <h2>VirtualBox</h2>
                   </div>
-                </>
+                </motion.div>
             }
         </div>
       </div>

@@ -1,5 +1,5 @@
 .contact{
-    background-color: #ffffff;
+    background-color: var(--background-color_w);
     height: 110vh;
 }
 .ContactContainer{
@@ -16,7 +16,7 @@
     text-transform: uppercase;
 }
 .contact-content h4 {
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 2.5rem;
     line-height: 1.4;
@@ -43,7 +43,7 @@
     width:100%;
     height: 250px;
     border-radius: 10px;
-    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+    box-shadow: var(--bx_shdw);
 }
 
 .ContactImg .ContactEmailBnner{
@@ -52,9 +52,9 @@
     gap: 20px;
     width: 100%;
     height: 65px;
-    background-color: #FAFAFA;
+    background-color: var(--bg_cntc_bnr);
     border-radius: 10px;
-    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+    box-shadow: var(--bx_shdw);
 }
 .ContactImg .ContactEmailBnner .CircleIconEmail{
     display: flex;
@@ -62,17 +62,17 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #E6EDF7;
+    background-color: var(--bg_icon_cntc);
     border-radius: 50%;
     margin-left: 20px;
 }
 .ContactImg .ContactEmailBnner .LnkEmail h2{
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 1.6rem;
 }
 .ContactImg .ContactEmailBnner .LnkEmail h4{
-    color: #2d2e32d9;
+    color: var(--clr_cntct_bnn);
     font-family: Poppins,sans-serif;
     font-size: 1.5rem;
     line-height: 1.2;
@@ -85,9 +85,9 @@
     gap: 20px;
     width: 100%;
     height: 65px;
-    background-color: #FAFAFA;
+    background-color: var(--bg_cntc_bnr);
     border-radius: 10px;
-    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.080);
+    box-shadow: var(--bx_shdw);
 }
 .ContactImg .ContactPhoneBnner .CircleIconPhone{
     display: flex;
@@ -95,17 +95,17 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #E6EDF7;
+    background-color: var(--bg_icon_cntc);
     border-radius: 50%;
     margin-left: 20px;
 }
 .ContactImg .ContactPhoneBnner .NbrPhone h2{
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 1.6rem;
 }
 .ContactImg .ContactPhoneBnner .NbrPhone h4{
-    color: #2d2e32d9;
+    color: var(--clr_cntct_bnn);
     font-family: Poppins,sans-serif;
     font-size: 1.5rem;
     line-height: 1.2;
@@ -115,7 +115,7 @@
     width: 50%;
 }
 .ContactForm h4{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.9rem;
     line-height: 1.2;
@@ -129,7 +129,7 @@
     width: 100%;
 }
 .ContactForm form .formName label{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.5rem;
     line-height: 0.8;
@@ -137,7 +137,7 @@
     font-weight: 500;
 }
 .ContactForm form .formName input{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.3rem;
     padding: 5px 5px 10px 26px;
@@ -146,7 +146,8 @@
     border-radius:1px;
     outline: 0;
     border: 0;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid #767676;
+    background-color: transparent;
 }
 .ContactForm form .formName .UserIcon{
     color: #767676;
@@ -161,7 +162,7 @@
     display: grid;
 }
 .ContactForm form .formEmail label{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.5rem;
     line-height: 0.8;
@@ -169,7 +170,7 @@
     margin-bottom: 1rem;
 }
 .ContactForm form .formEmail input{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.3rem;
     padding: 5px 5px 10px 26px;
@@ -179,6 +180,8 @@
     outline: 0;
     border: 0;
     border-bottom: 1px solid #767676;
+    background-color: transparent;
+
 }
 .ContactForm form .formEmail .Envolope{
     color: #767676;
@@ -194,7 +197,7 @@
 }
 
 .ContactForm form .formMessage label{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.5rem;
     line-height: 0.8;
@@ -202,7 +205,7 @@
     margin-bottom: 1rem;
 }
 .ContactForm form .formMessage textarea{
-    color: #2d2e32;
+    color: var(--color);
     font-family: 'Poppins',sans-serif;
     font-size: 1.3rem;
     padding: 5px 5px 10px 26px;
@@ -212,6 +215,8 @@
     outline: 0;
     border: 0;
     border-bottom: 1px solid #767676;
+    background-color: transparent;
+
 }
 .ContactForm form .formMessage .EnvelopeText{
     color: #767676;
@@ -229,8 +234,8 @@
     line-height: 0.5;
     border: 1px solid #147efb;
     border-radius: 3px;
-    background-color:white;
-    transition: .5s;
+    background-color:var(--background-color_w);
+    transition: .0s;
     cursor: pointer;
     font-weight: 500;
     box-shadow: 0 0 10px #1480fb13;
@@ -239,9 +244,11 @@
     padding: 0px 8px 0px 0px;
 }
 .ContactForm form button:hover{
-    color: white;
     background-color: #147efb;
     border: 1px solid #147efb;
     box-shadow: 0 0 10px #1480fb2a;
-
+    color: white;
+}
+.ContactForm form button:hover > .paperEmail{
+   color: white;
 }

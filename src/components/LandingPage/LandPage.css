@@ -1,5 +1,5 @@
 .home{
-    background-color: #f9f9f9;
+    background-color: var(--background-color_g);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -27,7 +27,7 @@
     position: relative;
 }
 .hero-main .hero-text h1{
-    color: #2d2e32;
+    color: var(--color);
     font-size: 5.5rem;
     line-height: 1.2;
     margin-bottom: 2rem;
@@ -43,7 +43,7 @@
 }
 
 .hero-main .hero-text p{
-    color: #555;
+    color: var(--land_p);
     font-family: 'Mulish',sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
@@ -62,24 +62,28 @@
     transition: all .2s;
 }
 .hero-main .hero-text span a {
-    color: #2d2e32;
+    color: var(--color);
     font-size: 3rem;
 }
 
 
 .hero-main .hero-img{
-    -webkit-animation: morph 8s ease-in-out infinite;
-    animation: morph 8s ease-in-out infinite;
+    -webkit-animation: morph 8s ease-in-out;
+    animation: morph 8s ease-in-out;
     background-image: url(../images/heroIMG.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid #2d2e32;
+    border: 3px solid var(--color);
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 35rem;
     position: relative;
     transition: all 1s ease-in-out;
     width: 35rem;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    opacity: 0;
 }
 
 @keyframes morph {
@@ -97,15 +101,14 @@
 
 .container .skills {
     align-items: center;
-    color: #767676;
     display: flex;
     font-size: 1.7rem;
     left: 289px;
     position: absolute;
 }
 .container .skills p {
-    border-right: 2px solid rgba(45,46,50,.5);
-    color: #2d2e32;
+    border-right: 2px solid var(--land_b);
+    color: var(--color);
     font-family: 'Mulish',sans-serif;
     font-weight: 600;
     margin-right: 7rem;

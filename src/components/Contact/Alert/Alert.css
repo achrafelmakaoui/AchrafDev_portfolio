@@ -41,12 +41,12 @@
     width: 90%;
 }
 .AlertContent .TextAlert h2{
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 1.3rem;
 }
 .AlertContent .TextAlert h4{
-    color: #2d2e32d9;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 1.15rem;
     line-height: 1.2;

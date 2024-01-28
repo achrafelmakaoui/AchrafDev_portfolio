@@ -3,7 +3,7 @@ section {
     height: 100vh;
 }
 .about{
-    background-color: #fff;
+    background-color: var(--background-color_w);
     padding: 15rem 0;
 }
 .AboutContainer{
@@ -33,7 +33,7 @@ section {
     width: 41rem;
 }
 .img-side span {
-    background-color: #fff;
+    background-color: var(--background-color_w);
     border-radius: 50%;
     bottom: -33px;
     height: 19rem;
@@ -75,14 +75,14 @@ section {
     text-transform: uppercase;
 }
 .text-side h4 {
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 2.5rem;
     line-height: 1.4;
     margin-bottom: 2rem;
 }
 .text-side p {
-    color: #767676;
+    color: var(--land_p);
     font-family: Mulish,sans-serif;
     font-size: 1.7rem;
     font-weight: 500;

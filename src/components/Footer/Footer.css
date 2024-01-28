@@ -1,5 +1,5 @@
 .footer-section{
-    background-color: #ffffff;
+    background-color: var(--background-color_w);
     height: 15vh;
 }
 .footerContainer{
@@ -34,7 +34,7 @@
     justify-content: flex-end;
 }
 .footer-conteent .Copyright h3{
-    color: #2D2E32;
+    color: var(--color);
     font-size: 1.7rem;
     font-weight: 700;
 }

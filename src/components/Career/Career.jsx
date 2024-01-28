@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Career.css';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
+import { motion } from "framer-motion";
 
 const Career = () => {
   const [activeCategory, setActiveCategory] = useState('Education');
@@ -46,8 +47,26 @@ const Career = () => {
           </div>
         </div>
         <div className='CareerLogos'>
-            {EducationCareer && <><Education/></>}
-            {ExperienceCareer && <><Experience/></>}
+            {EducationCareer && 
+            <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
+                  <Education/>
+            </motion.div>}
+
+            {ExperienceCareer && <motion.div
+                  className="box"
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -60, opacity: 0 }}
+                  transition={{ duration: 1 }}
+                >
+                  <Experience/>
+            </motion.div>}
         </div>
       </div>
     </section>

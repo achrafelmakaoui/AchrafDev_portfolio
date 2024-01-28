@@ -1,12 +1,15 @@
 import React from 'react'
 import './AboutPage.css'
 import CircleAnimation from '../images/circle-animation copy.svg'
+import CircleAnimationW from '../images/circle-animationW.svg'
 import Developer from '../images/developer.jpg'
 import TechMale from '../images/male-technologist.png'
 import AdLogo from '../images/logo - white.png'
-
+import { useTheme } from '../../ThemeContext'
 
 const AboutPage = () => {
+  const { theme } = useTheme();
+
   return (
     <section className="about" id="About">
         <div className="AboutContainer">
@@ -15,7 +18,16 @@ const AboutPage = () => {
                     <img src={TechMale} alt="emoji" className="work-emoji"/>
                     <img src={Developer} alt="mee" className="img-side__main-img"/>
                     <span>
-                        <img src={CircleAnimation} alt="text"/>
+                        {theme==='light' &&
+                            <>
+                                <img src={CircleAnimation} alt="text"/>
+                            </>
+                        }
+                        {theme==='dark' &&
+                            <>
+                                <img src={CircleAnimationW} alt="text"/>
+                            </>
+                        }
                     </span>
                     <div className='AchrafWaterMak'><img src={AdLogo} alt="text"/></div>
                     
