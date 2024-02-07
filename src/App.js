@@ -10,23 +10,34 @@ import Career from './components/Career/Career';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/Notfound404/NotFound';
+import TextIntro from './components/TextIntro/TextIntro';
 
 function App() {
   const [introComplete, setIntroComplete] = useState(false);
+  const [textIntroComplete, setTextIntroComplete] = useState(false);
+
 
   useEffect(() => {
-    // Check if intro has already been seen in localStorage
     const hasSeenIntro = localStorage.getItem('hasSeenIntro');
-
     if (hasSeenIntro) {
       setIntroComplete(true);
     } else {
-      // Simulate an asynchronous operation (e.g., an intro animation) being completed
       setTimeout(() => {
         setIntroComplete(true);
-        // Save in localStorage that the intro has been seen
         localStorage.setItem('hasSeenIntro', 'true');
-      }, 6000); // Adjust the timeout as needed
+      }, 7000);
+    }
+  }, []);
+
+  useEffect(() => {
+    const hasSeenTextIntro = localStorage.getItem('hasSeenTextIntro');
+    if (hasSeenTextIntro) {
+      setTextIntroComplete(true);
+    } else {
+      setTimeout(() => {
+        setTextIntroComplete(true);
+        localStorage.setItem('hasSeenTextIntro', 'true');
+      }, 45000);
     }
   }, []);
 
@@ -38,9 +49,10 @@ function App() {
             path="/"
             element={
               <>
-                {introComplete ? (
+                {introComplete && textIntroComplete ? (
                   <>
                     <LandPage />
+                    {/* <TextIntro /> */}
                     <AboutPage />
                     <Career />
                     <SkillsPage />
@@ -49,7 +61,10 @@ function App() {
                     <Footer />
                   </>
                 ) : (
-                  <Intro />
+                  <>
+                    {introComplete && <TextIntro />}
+                    {!introComplete && <Intro />}
+                  </>
                 )}
               </>
             }

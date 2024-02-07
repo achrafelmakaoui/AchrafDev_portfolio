@@ -19,17 +19,24 @@ const Navbar = () => {
       toggleTheme(); // Update the theme to 'light'
     }
   }
+  const handleImageClick = () => {
+    // Scroll to the top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // You can use 'auto' or 'instant' for different scrolling behavior
+    });
+  };
   return (
     <nav>
         <div className="navLogo">
           {theme==='light' &&
           <>
-            <Link to='/'><img src={AdbLogo} alt="text"/></Link>
+            <Link to='/' onClick={handleImageClick}><img src={AdbLogo} alt="text"/></Link>
           </>
           }
           {theme==='dark' &&
           <>
-            <Link to='/'><img src={AdbWLogo} alt="text"/></Link>
+            <Link to='/' onClick={handleImageClick}><img src={AdbWLogo} alt="text"/></Link>
           </>
           }
         </div>

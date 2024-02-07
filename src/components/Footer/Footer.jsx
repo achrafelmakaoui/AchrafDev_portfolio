@@ -3,10 +3,16 @@ import logo from '../images/logoFooter.png'
 import WLogo from '../images/WlogoFooter.png'
 import { useTheme } from '../../ThemeContext';
 import './Footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { theme } = useTheme();
-
+  const handleImageClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <section className='footer-section' id='footer'>
         <div className='footerContainer'>
@@ -15,12 +21,12 @@ const Footer = () => {
                 <div className='LogoPortfolio'>
                     {theme==='light' &&
                         <>
-                            <img src={logo} alt="logo"/>
+                            <Link to='/' onClick={handleImageClick}><img src={logo} alt="logo"/></Link>
                         </>
                      }
                     {theme==='dark' &&
                         <>
-                            <img src={WLogo} alt="logo"/>
+                            <Link to='/' onClick={handleImageClick}><img src={WLogo} alt="logo"/></Link>
                         </>
                     }
                 </div>

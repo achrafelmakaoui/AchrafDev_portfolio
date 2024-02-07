@@ -25,6 +25,7 @@
     flex-direction: column;
     max-width: 60rem;
     position: relative;
+    animation: visibility 1s;
 }
 .hero-main .hero-text h1{
     color: var(--color);
@@ -68,8 +69,8 @@
 
 
 .hero-main .hero-img{
-    -webkit-animation: morph 8s ease-in-out;
-    animation: morph 8s ease-in-out;
+    -webkit-animation: morph 7s ease-in-out infinite;
+    animation: morph 7s ease-in-out infinite;
     background-image: url(../images/heroIMG.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -97,7 +98,17 @@
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
-
+@keyframes visibility {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 .container .skills {
     align-items: center;
@@ -105,6 +116,7 @@
     font-size: 1.7rem;
     left: 289px;
     position: absolute;
+    opacity: 0;
 }
 .container .skills p {
     border-right: 2px solid var(--land_b);

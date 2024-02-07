@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh;
+    background-color: var(--background-color_w);
 }
 .NotFoundPageContent{
     display: flex;
@@ -14,14 +16,14 @@
     width: 35%;
 }
 .NotFoundPageContent h1{
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 2.5rem;
     line-height: 1.4;
     margin-bottom: 2rem;
 }
 .NotFoundPageContent P{
-    color: #2d2e32;
+    color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 1.65rem;
     line-height: 1.1;

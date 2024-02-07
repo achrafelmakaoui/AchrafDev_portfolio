@@ -255,6 +255,14 @@ const SkillsPage = () => {
                     <span><img src={OtherSkillsImages.VirtualBox} alt='VirtualBox'/></span>
                     <h2>VirtualBox</h2>
                   </div>
+                  <div className='skillsLogosItems'>
+                    <span><img src={OtherSkillsImages.Proxmox} alt='Proxmox'/></span>
+                    <h2>Proxmox</h2>
+                  </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Render} alt='Render'/></span>
+                    <h2>Render</h2>
+                  </div>
                 </motion.div>
             }
         </div>
