@@ -1,0 +1,40 @@
+.footer-section{
+    background-color: var(--background-color_w);
+    height: 15vh;
+}
+.footerContainer{
+    margin: 0 auto;
+    padding: 0px 4rem 0px 4rem;
+    max-width: 107rem;
+    display: grid;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.footer-conteent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+    width: 100%;
+}
+.footer-conteent .LogoPortfolio{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+.footer-conteent .LogoPortfolio img{
+    width: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer-conteent .Copyright{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-conteent .Copyright h3{
+    color: var(--color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}

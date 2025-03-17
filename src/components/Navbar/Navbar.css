@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--background-color_g);
+}
+nav{
+    align-items: center;
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 6px 40px 6px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    /* box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px; */
+    background-color: rgba(225, 225, 225, 0.1);
+    border: 1px solid transparent;
+    backdrop-filter: blur(.5rem);
+    /* box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.3); */
+    flex: 3;
+}
+nav .navLogo{
+    display: flex;
+    width: 50%;
+}
+nav .navLogo img{
+    width: 40px;
+    padding: 0;
+}
+nav .navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+nav .navLinks ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+nav .navLinks ul li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+nav .navLinks ul li a{
+    text-decoration: none;
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.darkmode_toggele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 5%;
+}
+.darkmode_toggele svg{
+    cursor: pointer;
+}

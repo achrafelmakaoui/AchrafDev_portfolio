@@ -1,0 +1,157 @@
+/* .textIntro-section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color_g);
+
+}
+.MenuIcon{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding:15px;
+}
+.MenuIcon svg{
+    background-color: #f2f2f214;
+    border: 1px solid #696c714e;
+    backdrop-filter: blur(.5rem);
+    padding: 6px;
+    color: #696c71db;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.MenuDropDown{
+    width: 14%;
+    height: fit-content;
+    position: fixed;
+    border-radius: 6px;
+    top: 9%;
+    right: 1%;
+    padding:15px;
+    background-color: #f2f2f214;
+    border: 1px solid #696c7191;
+}
+.MenuDropDownItem1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.MenuDropDownItem2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.MenuDropDownItem3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+    width: 100%;
+    margin-top: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hrLine{
+    border: 0;
+    border: 1px solid #696c71c5;
+}
+.MenuDropDownItem1 .IconItem1{
+    width: 20%;
+}
+.MenuDropDownItem2 .IconItem2{
+    width: 20%;
+}
+.MenuDropDownItem3 .IconItem3{
+    width: 20%;
+}
+.MenuDropDownItem1 .IconItem1 svg{
+        color: #696C71;
+}
+.MenuDropDownItem2 .IconItem2 svg{
+        color: #696C71;
+}
+.MenuDropDownItem3 .IconItem3 svg{
+        color: #696C71;
+}
+.MenuDropDownItem1 .TextItem1{
+    width: 70%;
+}
+.MenuDropDownItem2 .TextItem2{
+    width: 70%;
+}
+.MenuDropDownItem3 .TextItem3{
+    width: 70%;
+}
+.MenuDropDownItem1 .TextItem1 span{
+    color: #696C71;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+.MenuDropDownItem2 .TextItem2 span{
+    color: #696C71;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+.MenuDropDownItem3 .TextItem3 span{
+    color: #696C71;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+.MenuDropDownItem1 .ValIconItem1{
+    width: 10%;
+}
+.MenuDropDownItem2 .ValIconItem2{
+    width: 10%;
+}
+.MenuDropDownItem3 .ValIconItem3{
+    width: 10%;
+}
+.MenuDropDownItem1 .ValIconItem1 svg{
+    color: #696C71;
+}
+.MenuDropDownItem2 .ValIconItem2 svg{
+    color: #696C71;
+}
+.MenuDropDownItem3 .ValIconItem3 svg{
+    color: #696C71;
+}
+.TextIntro-content{
+    padding: 0px 4rem 0px 4rem;
+    margin: 0 auto;
+    max-width: 107rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.TextIntro-content p{
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 2.9rem;
+    line-height: 1.4;
+}
+.TextIntro-content p span{
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 3rem;
+    line-height: 1.4;
+    animation: typingEffect 1.2s ease-in-out infinite;
+}
+@keyframes typingEffect {
+    50%{
+        color: transparent;
+    }
+}
+ */

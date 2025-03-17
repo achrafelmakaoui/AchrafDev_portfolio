@@ -1,0 +1,44 @@
+.NotFoundPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color_w);
+}
+.NotFoundPageContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.NotFoundPageContent img{
+    width: 35%;
+}
+.NotFoundPageContent h1{
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+.NotFoundPageContent P{
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 1.65rem;
+    line-height: 1.1;
+    width: 35%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.NotFoundPageContent .GoBack{
+    padding: 10px;
+    background-color: #00DDB3;
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-size: 1.30rem;
+    line-height: 1.2;
+    width: 10%;
+    text-align: center;
+}

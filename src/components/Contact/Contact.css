@@ -1,0 +1,207 @@
+.contact{
+    background-color: var(--background-color_w);
+    height: fit-content;
+    padding-bottom: 15rem;
+}
+.ContactContainer{
+    margin: 0 auto;
+    padding: 120px 4rem 25px 4rem;
+    max-width: 107rem;
+}
+.contact-content h3{
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.contact-content h4 {
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 3rem;
+}
+.Contact-desFor{
+    width: 100%;
+}
+.Contact-desFor form{
+    width: 100%;
+}
+.Contact-desFor form .firstRow{
+    display: flex;
+    gap: 3rem;
+}
+.Contact-desFor form .secondRow{
+    display: flex;
+    gap: 3rem;
+}
+.Contact-desFor form .formName{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formName label{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.Contact-desFor form .formName input{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: var(--bg-contact-input);
+}
+.Contact-desFor form .formEmail{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formEmail label{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formEmail input{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: var(--bg-contact-input);
+}
+.Contact-desFor form .formInterest{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formInterest label{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formInterest select{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: var(--bg-contact-input);
+}
+.Contact-desFor form .formBudget{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formBudget label{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formBudget select{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: var(--bg-contact-input);
+}
+.Contact-desFor form .formMessage{
+    display: grid;
+}
+.Contact-desFor form .formMessage label{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formMessage textarea{
+    color: var(--color);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: var(--bg-contact-input);
+    min-height: 100px;
+    max-height: 150px;
+    resize: vertical;
+}
+.Contact-desFor form button{
+    padding: 13px 20px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.4rem;
+    line-height: 0.5;
+    border: 1px solid #147efb;
+    border-radius: 3px;
+    background-color: #147efb;
+    transition: .0s;
+    cursor: pointer;
+    font-weight: 400;
+    box-shadow: 0 0 10px #12121213;
+    width: 25%;
+}
+input::placeholder {
+    color: var(--color);
+    opacity: 1;
+}
+textarea::placeholder {
+    color: var(--color);
+    opacity: 1;
+}
+input::-webkit-input-placeholder {
+    color: var(--color);
+}
+input:-moz-placeholder {
+    color: var(--color);
+}
+input::-moz-placeholder {
+    color: var(--color);
+}
+input:-ms-input-placeholder {
+    color: var(--color);
+}
+textarea::-webkit-textarea-placeholder {
+    color: var(--color);
+}
+textarea:-moz-placeholder {
+    color: var(--color);
+}
+textarea::-moz-placeholder {
+    color: var(--color);
+}
+textarea:-ms-textarea-placeholder {
+    color: var(--color);
+}
