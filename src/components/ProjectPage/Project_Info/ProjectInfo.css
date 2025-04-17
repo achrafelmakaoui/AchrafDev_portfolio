@@ -14,7 +14,7 @@
     width: 100%;
 }
 .ProjectInfo-Header .Header-Content img{
-    width: 6.5%;
+    width: 60px;
     margin-bottom: 3rem;
 }
 .ProjectInfo-Header .Header-Content h1{
@@ -40,7 +40,7 @@
     margin: 5rem 0rem;
 }
 .ProjectInfo-Header .Header-Divider .Project-date span{
-    color: #969696;
+    color: var(--land_p);
     font-family: Poppins,sans-serif;
     font-size:  1.5rem;
     line-height: 1.5;
@@ -133,11 +133,8 @@
     text-align: justify;
 }
 .ProjectInfo-Details .projectInfo-Text p a{
-    color: #147EFB;
+    color: var(--primary-color);
     transition: all 0.3s ease-in-out;
-}
-.ProjectInfo-Details .projectInfo-Text p a:hover{
-    color: #0f5db5;
 }
 .ProjectInfo-Details .projectInfo-Text .hr{
     opacity: 0.5;
@@ -166,7 +163,7 @@
     cursor: pointer;
 }
 .ProjectInfo-Details .projectInfo-Text .projectinfo-TechStack li:hover{
-    background: #147EFB;
+    background: var(--primary-color);
     color: white;
 }
 .projectInfo-Footer{
@@ -199,7 +196,7 @@
 }
 .projectInfo-Footer .projectInfo-GoBack a:hover{
     gap: 1.5rem;
-    background-color: #1480fb;
+    background-color: var(--primary-color);
     color: white;
     opacity: 1;
 }
@@ -223,6 +220,25 @@
 .projectInfo-Footer .projectInfo-Social a:hover{
     text-decoration: none;
     color: white;
-    background-color: #147EFB;
+    background-color: var(--primary-color);
     border-radius: 3px;
+}
+@media (max-width: 1000px) {
+    .projectInfoContainer{
+        padding: 55px 2rem 115px 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .ProjectInfo-Details .projectInfo-Text h2{
+        color: var(--color);
+        font-family: Poppins,sans-serif;
+        font-size: 2.25rem;
+        line-height: 1.4;
+    }
+    .ProjectInfo-Details .projectInfo-Text p{
+        color: var(--land_p);
+        font-size: 1.4rem;
+        line-height: 1.8;
+        text-align: justify;
+    }
 }

@@ -1,15 +1,13 @@
-// Frontend Skills
-import Html5 from '../images/Front-skills/html-5--v1.webp'
-import Css3 from '../images/Front-skills/css3.webp'
-import Bootstrap from '../images/Front-skills/bootstrap.webp'
-import Js from '../images/Front-skills/javascript--v1.webp'
-import ReactJs from '../images/Front-skills/react--v1.webp'
-import Tailwind from '../images/Front-skills/tailwindcss.webp'
-import Redux from '../images/Front-skills/redux.webp'
-import Ts from '../images/Front-skills/typescript.webp'
-import MaterialUI from '../images/Front-skills/material-ui.webp'
-import Jquery from '../images/Front-skills/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.webp'
-import NextJs from '../images/Front-skills/rmz2jvsww4cdwkfriuyc.svg'
+import Html5 from '../images/frontend/html.webp'
+import Css3 from '../images/frontend/css3.webp'
+import Bootstrap from '../images/frontend/bootstrap.webp'
+import Js from '../images/frontend/javascript.webp'
+import ReactJs from '../images/frontend/react.webp'
+import Tailwind from '../images/frontend/tailwindcss.webp'
+import Redux from '../images/frontend/redux.webp'
+import Ts from '../images/frontend/typescript.webp'
+import Jquery from '../images/frontend/jquery.webp'
+import NextJs from '../images/frontend/nextjs.svg'
 
 const FrontSkillsImages = {
     Html5: Html5,
@@ -20,7 +18,6 @@ const FrontSkillsImages = {
     Tailwind: Tailwind,
     Redux: Redux,
     Ts: Ts,
-    MaterialUI: MaterialUI,
     Jquery: Jquery,
     NextJs: NextJs,
 };

@@ -3,13 +3,13 @@ import './Education.css'
 
 const Education = () => {
   return (
-    <div class="ContainerEducation">
-        <div class="timeline">
+    <div className="ContainerEducation">
+        <div className="timeline">
             <ul className='timelineul'>
                 <li className='timelineli'>
-                    <div class="timeline-content">
+                    <div className="timeline-content">
                         <h1>USMS ESTFBS - LP ITADM (BIG DATA)</h1>
-                        <h3>Data Scientist | 2023 - 2024</h3>
+                        <h2>Data Scientist | 2023 - 2024</h2>
                         <ul className='educationitem'>
                             <li>
                                 <span>Data Cleaning and Preprocessing</span>
@@ -27,9 +27,9 @@ const Education = () => {
                     </div>
                 </li>
                 <li className='timelineli'>
-                    <div class="timeline-content">
+                    <div className="timeline-content">
                         <h1>OFPPT ISGI - Développement Digital</h1>
-                        <h3>Full Stack Web Developer | 2021 - 2023</h3>
+                        <h2>Full Stack Web Developer | 2021 - 2023</h2>
                         <ul className='educationitem'>
                             <li>
                                 <span>Database Systems(SQL and NOSQL)</span>

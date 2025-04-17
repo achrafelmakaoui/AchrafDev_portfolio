@@ -27,8 +27,8 @@ const Career = () => {
     <section className='career-section' id='Career'>
       <div className="CareerContainer">
         <div className="career-content">
-          <h3>Career</h3>
-          <h4>Every achievement and lesson shapes my career 🌱.</h4>
+          <h2>Career</h2>
+          <h3>Every achievement and lesson shapes my career 🌱.</h3>
         </div>
         <div className='Career-categ-cont'>
           <div className='Career-categ'>

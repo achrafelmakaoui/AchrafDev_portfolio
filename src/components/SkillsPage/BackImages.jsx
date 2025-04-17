@@ -1,14 +1,14 @@
 // Backend Skills
-import Express from '../images/Back-skills/express-js.png'
-import Mongodb from '../images/Back-skills/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.webp'
-import Laravel from '../images/Back-skills/laravel-2.svg'
-import Mysql from '../images/Back-skills/mysql-logo.webp'
-import Sql from '../images/Back-skills/sql.png'
-import Nodejs from '../images/Back-skills/node-js.webp'
-import Php from '../images/Back-skills/php-logo.webp'
-import Python from '../images/Back-skills/python.svg'
-import Cassandra from '../images/Back-skills/Cassandra_logo.svg.png'
-import Redis from '../images/Back-skills/redis-logo.svg'
+import Express from '../images/backend/expressjs.webp'
+import Mongodb from '../images/backend/mongodb.webp'
+import Laravel from '../images/backend/laravel.svg'
+import Mysql from '../images/backend/mysql.webp'
+import Sql from '../images/backend/sql.webp'
+import Nodejs from '../images/backend/nodejs.webp'
+import Php from '../images/backend/php.webp'
+import Python from '../images/backend/python.svg'
+import Cassandra from '../images/backend/cassandra.webp'
+import Redis from '../images/backend/redis.svg'
 
 
 const BackSkillsImages = {

@@ -47,8 +47,8 @@ const SkillsPage = () => {
     <section className='skills-section' id='Skills'>
       <div className="SkillsContainer">
         <div className="skills-content">
-          <h3>Skills</h3>
-          <h4>Each skill is a building block in my professional toolkit 🛠️.</h4>
+          <h2>Skills</h2>
+          <h3>Each skill is a building block in my professional toolkit 🛠️.</h3>
         </div>
         <div className='skills-categ'>
           <span
@@ -116,10 +116,6 @@ const SkillsPage = () => {
                   <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.Tailwind} alt='Tailwind'/></span>
                     <h2>Tailwind</h2>
-                  </div>
-                  <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.MaterialUI} alt='MaterialUI'/></span>
-                    <h2>MaterialUI</h2>
                   </div>
                   <div className='skillsLogosItems'>
                     <span><img src={FrontSkillsImages.NextJs} alt='NextJs'/></span>
@@ -254,10 +250,6 @@ const SkillsPage = () => {
                   <div className='skillsLogosItems'>
                     <span><img src={OtherSkillsImages.VirtualBox} alt='VirtualBox'/></span>
                     <h2>VirtualBox</h2>
-                  </div>
-                  <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.Proxmox} alt='Proxmox'/></span>
-                    <h2>Proxmox</h2>
                   </div>
                   <div className='skillsLogosItems'>
                     <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Render} alt='Render'/></span>

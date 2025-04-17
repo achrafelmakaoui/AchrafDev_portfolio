@@ -1,0 +1,516 @@
+section {
+    display: block;
+    height: fit-content;
+}
+.aboutme{
+    background-color: var(--background-color_w);
+    padding: 15rem 0;
+    position: relative;
+}
+.AboutMeContainer{
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 50px 4rem;
+}
+.AboutMe-content h2{
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.AboutMe-content h3 {
+    color: var(--color);
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+#parent{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    'box1 box1 box1 box1 box2 box2'
+    'box3 box3 box4 box4 box2 box2'
+    'box3 box3 box5 box5 box5 box5';
+    gap: 10px;
+    color: var(--color);
+}
+.boxdiv{
+    background-color: var(--background-color_w);
+    border-radius: 0.75rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    border: 2px dashed var(--land_b);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+}
+#parent:hover > .boxdiv::after {
+    opacity: 1;
+}  
+.boxdiv:hover::before {
+    opacity: 1;
+}
+.boxdiv::before,
+.boxdiv::after {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+}  
+.boxdiv::before {
+    background: radial-gradient(
+      800px circle at var(--mouse-x) var(--mouse-y), 
+      var(--radial_gf),
+      transparent 45%
+    );
+    z-index: 3;
+}
+.boxdiv::after {  
+    background: radial-gradient(
+      600px circle at var(--mouse-x) var(--mouse-y), 
+      var(--radial_gs),
+      transparent 45%
+    );
+    z-index: 1;
+}
+.locationGlobe{
+    position: relative;
+    padding: 1rem;
+}
+.title {
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--color);
+    margin-top: 2rem;
+    text-shadow: 0 0 0.75px  var(--color), 0 0 1.5px var(--color);
+    text-align: center;
+}
+.globe-container {
+    position: relative;
+    width: 100%;
+    height: 12rem;
+}
+.globe-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(80%);
+    bottom: 0;
+}
+.globe {
+    width: 500px;
+    height: 500px;
+}
+.know-who-iam{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 5;
+    padding: 1rem;
+}
+.know-who-iam h2{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.25rem;
+    color: var(--color);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.know-who-iam h2 span{
+    color: var(--primary-color);
+    background-color: #1480fb48;
+}
+.know-who-iam p{
+    font-size: 1.6rem;
+    font-family: Mulish,sans-serif;
+    line-height: 1.75;
+    text-align: justify;
+    font-weight: 500;
+    color: var(--color);
+}
+.workCurently{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.workCurently .chat-Work{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.workCurently .chat-Work .chat-Date{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.workCurently .chat-Work .chat-Date span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    color: var(--land_p);
+    font-weight: 600;
+    text-align: center;
+}
+.workCurently .chat-Work .chat-ui1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.workCurently .chat-Work .chat-ui2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.sender-chat{
+    width: 70%;
+    background-color: #676767;
+    padding: 0.75rem;
+    border-radius: 0.75rem 0.75rem 0.75rem 0rem;
+}
+.my-chatbanner{
+    width: 85%;
+    background-color: var(--primary-color);
+    padding: 0.75rem;
+    border-radius: 0.75rem 0.75rem 0rem 0.75rem;
+}
+.sender-chat span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    font-weight: 500;
+}
+.my-chatbanner span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    font-weight: 500;
+}
+.my-chatbanner-date span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.1rem;
+    color: var(--land_p);
+    font-weight: 600;
+}
+
+.fav-quote{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    padding: 1rem;
+}
+.fav-quote h2{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.25rem;
+    width: 90%;
+    text-align: center;
+    color: var(--color);
+    z-index: 5;
+}
+.fav-quote h2 span{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.25rem;
+    color: var(--primary-color);
+    background-color: #1480fb48;
+}
+
+
+@media (max-width: 1000px) {
+    .AboutMeContainer{
+        padding: 50px 2rem;
+    }
+}
+@media (max-width: 983px) {
+    .title {
+        font-size: 1.9rem;
+    }
+    .know-who-iam h2{
+        font-size: 3rem;
+    }
+    .know-who-iam p{
+        font-size: 1.45rem;
+    }
+    .sender-chat span{
+        font-size: 1.1rem;
+    }
+    .my-chatbanner span{
+        font-size: 1.1rem;
+    }
+    .fav-quote h2{
+        font-size: 3rem;
+    }
+    .fav-quote h2 span{
+        font-size: 3rem;
+    }
+    .AboutMe-content h3 {
+        font-size: 2.25rem;
+    }
+}
+@media (max-width: 897px) {
+    .title {
+        font-size: 1.8rem;
+    }
+    .know-who-iam h2{
+        font-size: 2.9rem;
+    }
+    .know-who-iam p{
+        font-size: 1.35rem;
+    }
+    .sender-chat span{
+        font-size: 1rem;
+    }
+    .my-chatbanner span{
+        font-size: 1rem;
+    }
+    .fav-quote h2{
+        font-size: 2.9rem;
+    }
+    .fav-quote h2 span{
+        font-size: 2.9rem;
+    }
+}
+@media (max-width: 841px) {
+    #parent{
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-template-areas: 
+        'box1 box1 box1 box1 box1 box1'
+        'box3 box3 box3 box2 box2 box2'
+        'box3 box3 box3 box2 box2 box2'
+        'box4 box4 box4 box5 box5 box5';
+    }
+    .fav-quote h2{
+        font-size: 2.75rem;
+        width: 100%;
+    }
+    .fav-quote h2 span{
+        font-size: 2.75rem;
+    }
+}
+@media (max-width: 650px) {
+    #parent{
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas: 
+        'box1 box1 box1 box1 box1 box1'
+        'box2 box2 box2 box2 box2 box2'
+        'box2 box2 box2 box2 box2 box2'
+        'box3 box3 box3 box3 box3 box3'
+        'box3 box3 box3 box3 box3 box3'
+        'box4 box4 box4 box4 box4 box4'
+        'box5 box5 box5 box5 box5 box5';
+    }
+}
+.knowMe-card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.card-about-me{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.card-about-me::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, #111111fb,#111111b3, transparent);
+    pointer-events: none;
+    border-radius: 0.75rem;
+}
+.card-about-me img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inside-card-about-me {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: opacity 0.1s ease-in-out;
+    opacity: 1;
+}
+.Developer-Name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.Developer-Name h1{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+.Developer-Name h2{
+    font-family: Poppins,sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.banner-card-about-me {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color_g);
+    overflow: hidden;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    border-radius: 0.75rem;
+}
+.knowMe-card:hover > .banner-card-about-me {
+    bottom: 0;
+    opacity: 1;
+}
+.knowMe-card:hover > .inside-card-about-me{
+    opacity: 0;
+}
+.knowMe-card:hover > .card-about-me{
+    opacity: 0;
+}
+.bnr-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+.bnr-card .bnr-card-title,
+.bnr-card .bnr-card-subtitle,
+.bnr-card .bnr-card-resume{
+    position: relative;
+    z-index: 1;
+}
+.bnr-card .bnr-card-title h1{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color);
+}
+.bnr-card .bnr-card-subtitle h2{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.bnr-card .bnr-card-description {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.bnr-card .bnr-card-description p{
+    font-family: Mulish,sans-serif;
+    line-height: 1.75;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: justify;
+    color: var(--color);
+}
+.ripple-Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes About-Section-fade{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes About-Section-fadeInUp {
+    0% { opacity: 0; transform: translateY(20%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes About-Section-fadeInDown {
+    0% { opacity: 0; transform: translateY(-20%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes About-Section-slideInRight {
+    0% { opacity: 0; transform: translateX(-20%); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes About-Section-slideInLeft {
+    0% { opacity: 0; transform: translateX(20%); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.box1{
+    opacity: 0;
+    animation: About-Section-fadeInDown 0.5s ease-in-out forwards;
+}
+.box2{
+    opacity: 0;
+    animation: About-Section-slideInLeft 0.5s ease-in-out forwards;
+}
+.box3{
+    opacity: 0;
+    animation: About-Section-slideInRight 0.5s ease-in-out forwards;
+}
+.box4{
+    opacity: 0;
+    animation: About-Section-fade 0.5s ease-in-out forwards;
+    animation-delay: 0.75s;
+}
+.box5{
+    opacity: 0;
+    animation: About-Section-fadeInUp 0.5s ease-in-out forwards;
+}

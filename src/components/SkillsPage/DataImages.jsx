@@ -1,10 +1,9 @@
-// Bigdata Skills
-import PowerBi from '../images/BigDataSkills/Power-BI-Symbol.png'
-import Spark from '../images/BigDataSkills/apache-spark.png'
-import Hdfs from '../images/BigDataSkills/hdfs.png'
-import Pandas from '../images/BigDataSkills/pandas.png'
-import Numpy from '../images/BigDataSkills/numpyt.png'
-import R from '../images/BigDataSkills/R.png'
+import PowerBi from '../images/bigdata/powerbi.webp'
+import Spark from '../images/bigdata/spark.webp'
+import Hdfs from '../images/bigdata/hdfs.webp'
+import Pandas from '../images/bigdata/pandas.webp'
+import Numpy from '../images/bigdata/numpyt.webp'
+import R from '../images/bigdata/R.webp'
 
 const DataSkillsImages = {
     Spark: Spark,
@@ -14,4 +13,5 @@ const DataSkillsImages = {
     Numpy:Numpy,
     R:R,
 };
+
 export default DataSkillsImages;

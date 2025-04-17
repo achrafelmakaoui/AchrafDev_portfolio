@@ -24,25 +24,20 @@ html {
 nav{
     align-items: center;
     display: flex;
-    font-size: 1.7rem;
     height: auto;
     justify-content: space-between;
-    left: 0;
-    padding: 6px 40px 6px 50px;
+    padding: 15px 40px 15px 40px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
-    /* box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px; */
-    background-color: rgba(225, 225, 225, 0.1);
+    /* background-color: rgba(225, 225, 225, 0.1); */
     border: 1px solid transparent;
     backdrop-filter: blur(.5rem);
-    /* box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.3); */
-    flex: 3;
 }
 nav .navLogo{
     display: flex;
-    width: 50%;
+    width: 40%;
 }
 nav .navLogo img{
     width: 40px;
@@ -52,23 +47,14 @@ nav .navLinks{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 55%;
 }
 nav .navLinks ul{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
     display: flex;
     gap: 2rem;
     list-style: none;
-}
-nav .navLinks ul li{
-    display: list-item;
-    text-align: -webkit-match-parent;
+    padding: 0;
+    margin: 0;
 }
 nav .navLinks ul li a{
     text-decoration: none;
@@ -76,15 +62,87 @@ nav .navLinks ul li a{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     font-weight: 600;
-
+    font-size: 1.7rem;
 }
 .darkmode_toggele{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 15px;
     width: 5%;
 }
 .darkmode_toggele svg{
     cursor: pointer;
+}
+#openMenuSvg{
+    display: none;
+    color: var(--color);
+}
+.mobileNav{
+    align-items: center;
+    background-color: var(--background-color_w);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    z-index: 9999;
+}
+.closed-menu {
+    left: -100% !important;
+}
+.mobileNav span{
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+    color: var(--color);
+}
+.mobileNav ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    gap: 4rem;
+    list-style: none;
+}
+.mobileNav ul a{
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color);
+}
+@media screen and (max-width: 1200px){
+    nav .navLogo{
+        width: 30%;
+    }
+    nav .navLinks{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1000px){
+    nav {
+        padding: 20px 20px;
+    }
+    nav .navLinks{
+        display: none;
+    }
+    nav .navLogo {
+        justify-content: flex-start;
+    }
+    #openMenuSvg{
+        display: block;
+        color: var(--color);
+    }
+    .darkmode_toggele{
+        width: 50%;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 684px){
+    .darkmode_toggele{
+        width: fit-content;
+    }
 }

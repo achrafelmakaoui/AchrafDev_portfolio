@@ -7,15 +7,14 @@
     padding: 115px 4rem 115px 4rem;
     max-width: 107rem;
 }
-
-.career-content h3{
-    color: #147efb;
+.career-content h2{
+    color: var(--primary-color);
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
-.career-content h4 {
+.career-content h3 {
     color: var(--color);
     font-family: Poppins,sans-serif;
     font-size: 2.5rem;
@@ -34,12 +33,10 @@
     gap: 15px;
     background-color: var(--background-color_w);
     width: fit-content;
-    padding: 8px 6px;
+    padding: 8px 8px;
     border-radius: 0.75rem;
     border: 2px dashed var(--land_b);
-    /* width: 60%; */
 }
-
 .custom-button-career {
     padding: 0.75rem 1.25rem;
     font-size: 1.5rem; 
@@ -56,9 +53,25 @@
     background-color: var(--background-color_g);
 }
 .custom-button-career.active {
-    background-color: #1480fbbb;
+    background-color: #005FCC;
     color: white;
 }
-
-
-
+.CareerLogos{
+    width: 100%;
+}
+@media (max-width: 1000px){
+    .CareerContainer{
+        padding: 115px 2rem 115px 2rem;
+    }
+}
+@media (max-width: 900px){
+    .Career-categ-cont{
+        justify-content: flex-start;
+    }
+    .career-content h3 {
+        font-size: 2.25rem;
+    }
+    .custom-button-career {
+        font-size: 1.35rem; 
+    }
+}
