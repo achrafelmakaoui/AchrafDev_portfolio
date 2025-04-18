@@ -2,7 +2,6 @@ import React from 'react';
 import './Intro.css';
 import { useTheme } from '../../ThemeContext';
 
-
 const Intro = () => {
   const { theme } = useTheme();
   return (

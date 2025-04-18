@@ -21,7 +21,6 @@
     line-height: 1.4;
     margin-bottom: 2rem;
 }
-
 .skills-categ{
     display: flex;
     gap: 15px;
@@ -32,7 +31,6 @@
     border: 2px dashed var(--land_b);
     flex-wrap: wrap;
 }
-
 .custom-button {
     padding: 0.75rem 1.25rem;
     font-size: 1.5rem; 
@@ -52,7 +50,6 @@
     background-color: #005FCC;
     color: white;
     border: none;
-
 }
 .skillsLogos {
     width: 100%;
@@ -80,13 +77,11 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--bg_skls);
     border: 3px dashed var(--brdr_skls);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .skillsLogos span img {
     width: 70%;
     height: 70%;
@@ -102,7 +97,6 @@
     justify-content: center;
     align-items: center;
 }
-
 @media (max-width: 1000px) {
     .SkillsContainer{
         padding: 125px 2rem;

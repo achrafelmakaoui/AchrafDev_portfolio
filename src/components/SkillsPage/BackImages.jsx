@@ -1,4 +1,3 @@
-// Backend Skills
 import Express from '../images/backend/expressjs.webp'
 import Mongodb from '../images/backend/mongodb.webp'
 import Laravel from '../images/backend/laravel.svg'
@@ -9,7 +8,6 @@ import Php from '../images/backend/php.webp'
 import Python from '../images/backend/python.svg'
 import Cassandra from '../images/backend/cassandra.webp'
 import Redis from '../images/backend/redis.svg'
-
 
 const BackSkillsImages = {
     Express: Express,

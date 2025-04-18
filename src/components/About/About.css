@@ -1,11 +1,9 @@
-section {
-    display: block;
-    height: fit-content;
-}
 .aboutme{
     background-color: var(--background-color_w);
     padding: 15rem 0;
     position: relative;
+    display: block;
+    height: fit-content;
 }
 .AboutMeContainer{
     margin: 0 auto;

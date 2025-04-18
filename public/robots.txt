@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://achrafelmakaoui.com/sitemap.xml

@@ -7,7 +7,6 @@
     padding: 115px 4rem 115px 4rem;
     max-width: 107rem;
 }
-
 .Projects-content h2{
     color: var(--primary-color);
     font-size: 1.7rem;
@@ -32,7 +31,6 @@
     border-radius: 0.75rem;
     border: 2px dashed var(--land_b);
 }
-
 .custom-button-projects {
     padding: 0.75rem 1.25rem;
     font-size: 1.5rem; 
@@ -70,7 +68,7 @@
     border: 1px dashed rgba(255, 255, 255, 0.504);
 }
 .projects-grid .pro {
-    background-color: var(--bg_bnner_prt);
+    background-color: var(--background-color_w);
     border-radius: 0.75rem;
     box-shadow: var(--bx_shdw);
     flex: 1 1 calc(33% - 3rem);
@@ -90,13 +88,11 @@
     object-fit: cover;
     width: 100%;
 }
-
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
 }
-
 .projects-grid .pro__img img {
     height: auto;
     width: 100%;
@@ -111,8 +107,6 @@ a:-webkit-any-link {
     text-transform: uppercase;
     margin-block-start: 0.5rem;
 }
-
-
 .projects-grid .pro__text p {
     color: var(--land_p);
     font-size: 1.4rem;
@@ -125,7 +119,6 @@ a:-webkit-any-link {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
 @media (max-width: 1000px) {
     .ProjectsContainer{
         padding: 115px 2rem 115px 2rem;
@@ -148,7 +141,6 @@ a:-webkit-any-link {
     .projects-grid .pro__text p {
         -webkit-line-clamp: 3;
     }
-    
 }
 @media (max-width: 750px) {
     .projects-grid .pro__text p {

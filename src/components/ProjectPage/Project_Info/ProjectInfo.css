@@ -116,7 +116,6 @@
     text-align: justify;
     font-weight: 500;
 }
-
 .ProjectInfo-Details .projectInfo-Text{
     margin-top: 3rem;
 }
@@ -152,7 +151,6 @@
     padding: 0;
     list-style: none;
 }
-
 .ProjectInfo-Details .projectInfo-Text .projectinfo-TechStack li {
     background: #dedede;
     padding: 8px 12px;

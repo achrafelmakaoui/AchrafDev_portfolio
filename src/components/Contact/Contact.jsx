@@ -5,10 +5,8 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const [SuccAlert,setSuccAlert]=useState(false);
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_b9xhrhu', 'template_4wovhaa', form.current, '5R7w7JO7TMVjl_L7_')
         .then((result) => {
             console.log(result.text);
@@ -21,8 +19,6 @@ const Contact = () => {
             console.log(error.text);
         });
     };
-
-
   return (
     <section className="contact" id="Contact">
         <div className="ContactContainer">

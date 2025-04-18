@@ -23,14 +23,7 @@ const Ripple = React.memo(function Ripple({
           <div
             key={i}
             className="ripple-circle"
-            style={{
-              width: `${size}px`,
-              height: `${size}px`,
-              opacity,
-              borderStyle,
-              borderWidth: "1px",
-              borderColor: `rgba(var(--foreground-rgb), ${borderOpacity / 100})`,
-            }}
+            style={{ width: `${size}px`, height: `${size}px`, opacity, borderStyle, borderWidth: "1px", borderColor: `rgba(var(--foreground-rgb), ${borderOpacity / 100})`}}
           />
         )
       })}
@@ -44,16 +37,8 @@ export default function RippleDemo() {
   return (
     <div className="ripple-demo">
       <div className="logo-container">
-        {theme==='light' &&
-          <>
-            <img src={Blogo} alt="Logo" width={75} height={75}/>
-          </>
-        }
-        {theme==='dark' &&
-          <>
-            <img src={Wlogo} alt="Logo" width={75} height={75}/>
-          </>
-        }
+        {theme==='light' && <><img src={Blogo} loading="lazy" alt="Logo" width={75} height='auto'/></>}
+        {theme==='dark' && <><img src={Wlogo} loading="lazy" alt="Logo" width={75} height='auto'/></>}
       </div>
       <Ripple />
     </div>

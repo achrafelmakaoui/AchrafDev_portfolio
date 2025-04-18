@@ -215,7 +215,6 @@ textarea::-moz-placeholder {
 textarea:-ms-textarea-placeholder {
     color: var(--color);
 }
-
 @media (max-width: 1000px) {
     .ContactContainer{
         padding: 120px 2rem 25px 2rem;

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import './About.css'
 import Glob from './Glob/Globe'
-import ME from '../images/ME.webp'
+import ME from '../images/MEE.webp'
 import RippleDemo from './Ripple/Ripple'
 
 const About = () => {
@@ -82,7 +82,7 @@ const About = () => {
                 <div className="boxdiv" style={{ gridArea:'box3'}}>
                     <div className='knowMe-card'>
                         <div className='card-about-me'>
-                            <img src={ME} alt="Portrait of Achraf El Makaoui, Full Stack Developer"/>
+                            <img src={ME} loading="lazy" alt="Portrait of Achraf El Makaoui, Full Stack Developer"/>
                         </div>
                         <div className='inside-card-about-me'>
                             <div className='Developer-Name'>

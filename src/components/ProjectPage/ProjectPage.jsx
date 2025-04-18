@@ -18,21 +18,14 @@ const ProjectPage = () => {
   const renderProjects = (category) => {
     const projects = category === 'Web' ? webProjects : dataScienceProjects;
     return (
-      <motion.div
-        className="box"
-        key={category}
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -60, opacity: 0 }}
-        transition={{ duration: 1 }}
-      >
+      <motion.div className="box" key={category} initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
         {projects.map((project) => {
           const imageSrc = require(`../images/${project.thumbnail}`);
           return (
             <div key={project.slug} className="pro pro__1 undefined">
               <Link to={`/projects/${project.type}/${project.slug}`} className='projectsLink'>
                 <div className="pro__img">
-                  <img src={imageSrc} alt={project.slug}/>
+                  <img src={imageSrc} loading="lazy" alt={project.slug}/>
                 </div>
                 <div className="pro__text">
                   <h3>{project.title}</h3>

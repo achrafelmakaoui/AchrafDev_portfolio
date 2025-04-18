@@ -35,7 +35,6 @@
     opacity: 0;
     animation: LandingPageFadeInUp1 1s ease-in-out forwards;
 }
-
 .hero-main .hero-text p{
     color: var(--land_p);
     font-family: 'Mulish',sans-serif;
@@ -105,7 +104,6 @@
         opacity: 1;
     }
 }
-
 .container .skills {
     align-items: center;
     display: flex;
@@ -118,7 +116,7 @@
     border-right: 2px solid var(--land_b);
     color: var(--color);
     font-family: 'Mulish',sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     margin-right: 7rem;
     padding-right: 2rem;
 }
@@ -191,7 +189,6 @@ li {
         max-width: 60rem;
         width: 100%;
     }
-    
 }
 @media (max-width: 653px){
     .hero-main .hero-text h1{
@@ -275,7 +272,6 @@ li {
         font-size: 1.25rem;
     }
 }
-
 @keyframes LandingPageFade{
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -284,12 +280,10 @@ li {
     0% { opacity: 0; transform: translateY(20%); }
     100% { opacity: 1; transform: translateY(0); }
 }
-
 @keyframes LandingPageFadeInUp2 {
     0% { opacity: 0; transform: translateY(130%); }
     100% { opacity: 1; transform: translateY(0); }
 }
-
 @keyframes LandingPageslideInRight {
     0% { opacity: 0; transform: translateX(20%); }
     100% { opacity: 1; transform: translateX(0); }

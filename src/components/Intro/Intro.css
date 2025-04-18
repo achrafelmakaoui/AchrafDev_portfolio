@@ -26,7 +26,6 @@
     line-height: 1.4;
     overflow: hidden;
     background-color: var(--background-color_g);
-
 }
 .intro-content h1 span{
     color: var(--color);
@@ -37,15 +36,12 @@
     animation: text-animation 1.25s ease forwards 4.1s;
     display: inline-block;
 }
-
 .intro-bar {
     display: grid;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--background-color_g); */
     z-index: 2;
 }
-
 #logo{
     fill: transparent;
     animation: file 1s ease forwards 3.1s;
@@ -60,7 +56,6 @@
     stroke-dashoffset: 4275.91552734375px;
     animation: line-animation 3s ease forwards;
 }
-
 @keyframes line-animation {
     to{
         stroke-dashoffset: 0;

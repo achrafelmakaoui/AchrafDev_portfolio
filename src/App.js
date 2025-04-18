@@ -13,10 +13,8 @@ import ProjectInfo from './components/ProjectPage/Project_Info/ProjectInfo'
 import Scrolltotop from './ScrollToTop';
 import Navbar from './components/Navbar/Navbar';
 
-
 function App() {
   const [introComplete, setIntroComplete] = useState(false);
-
   useEffect(() => {
     const hasSeenIntro = localStorage.getItem('hasSeenIntro');
     if (hasSeenIntro) {
@@ -28,7 +26,6 @@ function App() {
       }, 7000);
     }
   }, []);
-
 
   return (
     <div>

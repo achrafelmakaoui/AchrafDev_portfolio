@@ -9,13 +9,11 @@ const Career = () => {
   const [EducationCareer, setEducationCareer] = useState(true);
   const [ExperienceCareer, setExperienceCareer] = useState(false);
 
-
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
     if(category==='Education'){
         setEducationCareer(true);
         setExperienceCareer(false);
-
     }
     else{
         setExperienceCareer(true);
@@ -47,26 +45,8 @@ const Career = () => {
           </div>
         </div>
         <div className='CareerLogos'>
-            {EducationCareer && 
-            <motion.div
-                  className="box"
-                  initial={{ y: 10, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: -60, opacity: 0 }}
-                  transition={{ duration: 1 }}
-                >
-                  <Education/>
-            </motion.div>}
-
-            {ExperienceCareer && <motion.div
-                  className="box"
-                  initial={{ y: 10, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: -60, opacity: 0 }}
-                  transition={{ duration: 1 }}
-                >
-                  <Experience/>
-            </motion.div>}
+            {EducationCareer && <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}><Education/></motion.div>}
+            {ExperienceCareer && <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}><Experience/></motion.div>}
         </div>
       </div>
     </section>

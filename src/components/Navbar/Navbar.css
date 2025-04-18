@@ -31,7 +31,6 @@ nav{
     top: 0;
     width: 100%;
     z-index: 999;
-    /* background-color: rgba(225, 225, 225, 0.1); */
     border: 1px solid transparent;
     backdrop-filter: blur(.5rem);
 }
