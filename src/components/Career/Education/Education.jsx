@@ -46,6 +46,23 @@ const Education = () => {
                         </ul>
                     </div>
                 </li>
+                <li className='timelineli'>
+                    <div className="timeline-content">
+                        <h1>Bachelor of Physical Sciences</h1>
+                        <h2>Physical Sciences Graduate | 2020 - 2021</h2>
+                        <ul className='educationitem'>
+                            <li>
+                                <span>Core Physics Principles</span>
+                            </li>
+                            <li>
+                                <span>Advanced Math & Logic Reasoning</span>
+                            </li>
+                            <li>
+                                <span>Analytical & Problem-Solving Skills</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

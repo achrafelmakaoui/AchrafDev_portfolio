@@ -62,8 +62,8 @@
     font-size: 3rem;
 }
 .hero-main .hero-img{
-    -webkit-animation: morph 7s ease-in-out infinite;
-    animation: morph 7s ease-in-out infinite;
+    -webkit-animation: morph 5s ease-in-out infinite, LandingPageFade 1s ease-in-out forwards 0.75s;
+    animation: morph 5s ease-in-out infinite, LandingPageFade 1s ease-in-out forwards 0.75s;
     background-image: url(../images/heroIMG.webp);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -78,8 +78,6 @@
     overflow-y: hidden;
     overflow-x: hidden;
     opacity: 0;
-    animation: LandingPageFade 1s ease-in-out forwards;
-    animation-delay: 0.75s;
 }
 
 @keyframes morph {

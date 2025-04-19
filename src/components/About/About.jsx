@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import './About.css'
 import Glob from './Glob/Globe'
-import ME from '../images/MEE.webp'
+import ME from '../images/ME.webp'
 import RippleDemo from './Ripple/Ripple'
 
 const About = () => {
