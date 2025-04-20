@@ -30,7 +30,6 @@ function App() {
   return (
     <div>
       <ThemeProvider>
-        <Scrolltotop />
         <Routes>
           <Route
             path="/"
@@ -55,7 +54,7 @@ function App() {
               </>
             }
           />
-          <Route path="/projects/:category/:slug" element={<ProjectInfo/>} />
+          <Route path="/projects/:category/:slug" element={<><Scrolltotop /><ProjectInfo/></>} />
         </Routes>
       </ThemeProvider>
     </div>

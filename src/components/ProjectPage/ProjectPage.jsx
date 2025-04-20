@@ -25,7 +25,7 @@ const ProjectPage = () => {
             <div key={project.slug} className="pro pro__1 undefined">
               <Link to={`/projects/${project.type}/${project.slug}`} className='projectsLink'>
                 <div className="pro__img">
-                  <img src={imageSrc} loading="lazy" alt={project.slug}/>
+                  <img src={imageSrc} loading="lazy" alt={`Achraf El Makaoui, ${project.title}`} title={`Achraf El Makaoui, ${project.title}`}/>
                 </div>
                 <div className="pro__text">
                   <h3>{project.title}</h3>

@@ -174,7 +174,7 @@
 .projectInfo-Footer .projectInfo-GoBack{
     width: 100%;
 }
-.projectInfo-Footer .projectInfo-GoBack a{
+.projectInfo-Footer .projectInfo-GoBack button{
     text-decoration: none;
     color: var(--color);
     font-family: Poppins,sans-serif;
@@ -191,8 +191,10 @@
     border-radius: 3px;
     opacity: 0.8;
     transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
 }
-.projectInfo-Footer .projectInfo-GoBack a:hover{
+.projectInfo-Footer .projectInfo-GoBack button:hover{
     gap: 1.5rem;
     background-color: var(--primary-color);
     color: white;

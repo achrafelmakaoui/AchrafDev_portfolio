@@ -35,8 +35,8 @@ const Navbar = () => {
     <>
       <nav>
           <div className="navLogo">
-            {theme==='light' && <><Link to='/' onClick={handleImageClick}><img src={AdbLogo} loading="lazy" alt="Logo"/></Link></>}
-            {theme==='dark' && <><Link to='/' onClick={handleImageClick}><img src={AdbWLogo} loading="lazy" alt="Logo"/></Link></>}
+            {theme==='light' && <><Link to='/' onClick={handleImageClick}><img src={AdbLogo} alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
+            {theme==='dark' && <><Link to='/' onClick={handleImageClick}><img src={AdbWLogo} alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
           </div>
           <div className="navLinks">
               <ul>

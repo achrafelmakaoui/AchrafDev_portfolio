@@ -39,11 +39,11 @@ const About = () => {
                 boxes.forEach((box, index) => {
                   box.classList.add(`box${index + 1}`);
                 });
-                observer.disconnect(); // remove this if you want it to trigger again on scroll up
+                observer.disconnect();
               }
             },
             {
-              threshold: 0.25, // 50% of the section is visible
+              threshold: 0.25,
             }
           );
       
@@ -82,7 +82,7 @@ const About = () => {
                 <div className="boxdiv" style={{ gridArea:'box3'}}>
                     <div className='knowMe-card'>
                         <div className='card-about-me'>
-                            <img src={ME} loading="lazy" alt="Portrait of Achraf El Makaoui, Full Stack Developer"/>
+                            <img src={ME} loading="lazy" alt="Portrait of Achraf El Makaoui, Full Stack Developer" title="Portrait of Achraf El Makaoui, Full Stack Developer"/>
                         </div>
                         <div className='inside-card-about-me'>
                             <div className='Developer-Name'>

@@ -19,8 +19,8 @@ const Footer = () => {
             <div className='footer-content'>
                 <div className="copyright"><span>©2025 ACHRAF EL MAKAOUI</span></div>
                 <div className="logo-container">
-                    {theme==='light' && <><Link to='/' onClick={handleImageClick}><img src={logo} loading="lazy" alt="logo"/></Link></>}
-                    {theme==='dark' && <><Link to='/' onClick={handleImageClick}><img src={WLogo} loading="lazy" alt="logo"/></Link></>}
+                    {theme==='light' && <><Link to='/' onClick={handleImageClick}><img src={logo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
+                    {theme==='dark' && <><Link to='/' onClick={handleImageClick}><img src={WLogo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
                 </div>
                 <div className="social-links">
                     <a href="https://github.com/achrafelmakaoui" target="_blank" rel="noopener noreferrer" aria-label="Follow Me On Github">

@@ -78,39 +78,39 @@ const SkillsPage = () => {
             {FrontendSkills && 
                 <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Html5} loading="lazy" alt='Html5'/></span>
+                    <span><img src={FrontSkillsImages.Html5} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Html5'/></span>
                     <h2>Html5</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Css3} loading="lazy" alt='Css3'/></span>
+                    <span><img src={FrontSkillsImages.Css3} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Css3'/></span>
                     <h2>Css3</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Bootstrap} loading="lazy" alt='Bootstrap'/></span>
+                    <span><img src={FrontSkillsImages.Bootstrap} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Bootstrap'/></span>
                     <h2>Bootstrap</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Js} loading="lazy" alt='Js'/></span>
+                    <span><img src={FrontSkillsImages.Js} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Js'/></span>
                     <h2>Javascript</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Jquery} loading="lazy" alt='Jquery'/></span>
+                    <span><img src={FrontSkillsImages.Jquery} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Jquery'/></span>
                     <h2>Jquery</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.ReactJs} loading="lazy" alt='ReactJs'/></span>
+                    <span><img src={FrontSkillsImages.ReactJs} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, ReactJs'/></span>
                     <h2>ReactJs</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Redux} loading="lazy" alt='Redux'/></span>
+                    <span><img src={FrontSkillsImages.Redux} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Redux'/></span>
                     <h2>Redux</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.Tailwind} loading="lazy" alt='Tailwind'/></span>
+                    <span><img src={FrontSkillsImages.Tailwind} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, Tailwind'/></span>
                     <h2>Tailwind</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={FrontSkillsImages.NextJs} loading="lazy" alt='NextJs'/></span>
+                    <span><img src={FrontSkillsImages.NextJs} loading="lazy" title='Achraf El Makaoui, Frontend skills' alt='Achraf El Makaoui, NextJs'/></span>
                     <h2>NextJs</h2>
                   </div>
                 </motion.div>
@@ -118,43 +118,43 @@ const SkillsPage = () => {
             {BackedSkills && 
                 <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Sql} loading="lazy" alt='Sql'/></span>
+                    <span><img src={BackSkillsImages.Sql} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Sql'/></span>
                     <h2>SQL</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Php} loading="lazy" alt='Php'/></span>
+                    <span><img src={BackSkillsImages.Php} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Php'/></span>
                     <h2>Php</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Laravel} loading="lazy" alt='Laravel'/></span>
+                    <span><img src={BackSkillsImages.Laravel} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Laravel'/></span>
                     <h2>Laravel</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Nodejs} loading="lazy" alt='NodeJs'/></span>
+                    <span><img src={BackSkillsImages.Nodejs} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, NodeJs'/></span>
                     <h2>NodeJs</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Express} loading="lazy" alt='Express'/></span>
+                    <span><img src={BackSkillsImages.Express} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Express'/></span>
                     <h2>Express</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Mysql} loading="lazy" alt='Mysql'/></span>
+                    <span><img src={BackSkillsImages.Mysql} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Mysql'/></span>
                     <h2>Mysql</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Mongodb} loading="lazy" alt='MongoDb'/></span>
+                    <span><img src={BackSkillsImages.Mongodb} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, MongoDb'/></span>
                     <h2>Mongodb</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Cassandra} loading="lazy" alt='Cassandra'/></span>
+                    <span><img src={BackSkillsImages.Cassandra} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Cassandra'/></span>
                     <h2>Cassandra</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Redis} loading="lazy" alt='Redis'/></span>
+                    <span><img src={BackSkillsImages.Redis} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Redis'/></span>
                     <h2>Redis</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} loading="lazy" alt='Python'/></span>
+                    <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Python'/></span>
                     <h2>Python</h2>
                   </div>
                 </motion.div>
@@ -162,39 +162,39 @@ const SkillsPage = () => {
             {DataSkills && 
                 <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'80px',height:'90px'}} src={DataSkillsImages.Spark} loading="lazy" alt='Spark'/></span>
+                    <span><img style={{ width:'80px',height:'90px'}} src={DataSkillsImages.Spark} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, Spark'/></span>
                     <h2>Spark</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hdfs} loading="lazy" alt='Hdfs'/></span>
+                    <span><img style={{ width:'90px',height:'90px'}} src={DataSkillsImages.Hdfs} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, Hdfs'/></span>
                     <h2>Hdfs</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Cassandra} loading="lazy" alt='Cassandra'/></span>
+                    <span><img src={BackSkillsImages.Cassandra} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, Cassandra'/></span>
                     <h2>Cassandra</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={BackSkillsImages.Sql} loading="lazy" alt='Sql'/></span>
+                    <span><img src={BackSkillsImages.Sql} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, Sql'/></span>
                     <h2>SQL</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'80px',height:'60px'}} src={DataSkillsImages.PowerBi} loading="lazy" alt='PowerBi'/></span>
+                    <span><img style={{ width:'80px',height:'60px'}} src={DataSkillsImages.PowerBi} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, PowerBi'/></span>
                     <h2>PowerBi</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} loading="lazy" alt='Python'/></span>
+                    <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, Python'/></span>
                     <h2>Python</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={DataSkillsImages.Numpy} loading="lazy" alt='numpy'/></span>
+                    <span><img src={DataSkillsImages.Numpy} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, numpy'/></span>
                     <h2>Numpy</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={DataSkillsImages.Pandas} loading="lazy" alt='pandas'/></span>
+                    <span><img src={DataSkillsImages.Pandas} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, pandas'/></span>
                     <h2>Pandes</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={DataSkillsImages.R} loading="lazy" alt='R'/></span>
+                    <span><img src={DataSkillsImages.R} loading="lazy" title='Achraf El Makaoui, Data science skills' alt='Achraf El Makaoui, R'/></span>
                     <h2>R</h2>
                   </div>
                 </motion.div>
@@ -202,31 +202,31 @@ const SkillsPage = () => {
             {OtherSkills && 
                 <motion.div className="box" initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
                   <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.Netlify} loading="lazy" alt='Netlify'/></span>
+                    <span><img src={OtherSkillsImages.Netlify} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Netlify'/></span>
                     <h2>Netlify</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Vercel} loading="lazy" alt='Vercel'/></span>
+                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Vercel} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Vercel'/></span>
                     <h2>Vercel</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.Git} loading="lazy" alt='Git'/></span>
+                    <span><img src={OtherSkillsImages.Git} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Git'/></span>
                     <h2>Git</h2>
                   </div>  
                   <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.Github} loading="lazy" alt='Github'/></span>
+                    <span><img src={OtherSkillsImages.Github} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Github'/></span>
                     <h2>Github</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.Docker} loading="lazy" alt='Docker'/></span>
+                    <span><img src={OtherSkillsImages.Docker} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Docker'/></span>
                     <h2>Docker</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img src={OtherSkillsImages.VirtualBox} loading="lazy" alt='VirtualBox'/></span>
+                    <span><img src={OtherSkillsImages.VirtualBox} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, VirtualBox'/></span>
                     <h2>VirtualBox</h2>
                   </div>
                   <div className='skillsLogosItems'>
-                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Render} loading="lazy" alt='Render'/></span>
+                    <span><img style={{ width:'55px',height:'55px'}} src={OtherSkillsImages.Render} loading="lazy" title='Achraf El Makaoui, Other skills' alt='Achraf El Makaoui, Render'/></span>
                     <h2>Render</h2>
                   </div>
                 </motion.div>

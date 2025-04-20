@@ -37,8 +37,8 @@ export default function RippleDemo() {
   return (
     <div className="ripple-demo">
       <div className="logo-container">
-        {theme==='light' && <><img src={Blogo} loading="lazy" alt="Logo" width={75} height='auto'/></>}
-        {theme==='dark' && <><img src={Wlogo} loading="lazy" alt="Logo" width={75} height='auto'/></>}
+        {theme==='light' && <><img src={Blogo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo" width={75} height='auto'/></>}
+        {theme==='dark' && <><img src={Wlogo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo" width={75} height='auto'/></>}
       </div>
       <Ripple />
     </div>
