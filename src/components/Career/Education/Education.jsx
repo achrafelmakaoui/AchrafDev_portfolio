@@ -8,6 +8,29 @@ const Education = () => {
             <ul className='timelineul'>
                 <li className='timelineli'>
                     <div className="timeline-content">
+                        <h1>ENSET MOHAMMEDIA - MASTER SDIA</h1>
+                        <h2>Software Engineer & Data Scientist | 2024 – Present</h2>
+                        <ul className='educationitem'>
+                            <li>
+                                <span>Advanced Machine Learning & Deep Learning</span>
+                            </li>
+                            <li>
+                                <span>Artificial Intelligence & Intelligent Systems</span>
+                            </li>
+                            <li>
+                                <span>Big Data Analytics & Distributed Systems</span>
+                            </li>
+                            <li>
+                                <span>Data Engineering & Cloud Computing</span>
+                            </li>
+                            <li>
+                                <span>Research Methods & Applied AI Projects</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li className='timelineli'>
+                    <div className="timeline-content">
                         <h1>USMS ESTFBS - LP ITADM (BIG DATA)</h1>
                         <h2>Data Scientist | 2023 - 2024</h2>
                         <ul className='educationitem'>
