@@ -59,15 +59,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and **see th
 
 ## 🎨 Project Structure
 
+```text
 📦 AchrafDev_portfolio
- ┣ 📂 public/          # Static assets (favicon, index.html)
+ ┣ 📂 public/
  ┣ 📂 src/
- ┃ ┣ 📂 components/    # All the reusable UI pieces (Navbar, Footer, Cards)
- ┃ ┣ 📂 assets/        # Images, icons, logos, and fonts
- ┃ ┣ App.js            # Main layout and routing configuration
- ┃ ┗ index.js          # Entry point of the application
- ┣ package.json        # Dependencies and scripts
- ┗ README.md           # Project documentation
+ ┃ ┣ 📂 components/   # All the reusable UI pieces
+ ┃ ┣ 📂 assets/       # Images, icons, logos
+ ┃ ┣ App.js           # Main layout
+ ┃ ┗ index.js         # Entry point
+ ┣ package.json
+ ┗ README.md
+```
 
 ---
 
