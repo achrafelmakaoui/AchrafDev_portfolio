@@ -21,9 +21,6 @@ const Education = () => {
                                 <span>Big Data Analytics & Distributed Systems</span>
                             </li>
                             <li>
-                                <span>Data Engineering & Cloud Computing</span>
-                            </li>
-                            <li>
                                 <span>Research Methods & Applied AI Projects</span>
                             </li>
                         </ul>
