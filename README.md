@@ -47,6 +47,9 @@ cd AchrafDev_portfolio
 
 # 3️⃣ Install dependencies
 npm install
+
+# 4️⃣ Start the development server
+npm start
 ```
 # 🚀 Run & Explore
 
@@ -57,14 +60,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and **see th
 ## 🎨 Project Structure
 
 📦 AchrafDev_portfolio
-┣ 📂 public/
-┣ 📂 src/
-┃ ┣ 📂 components/ # All the reusable UI pieces
-┃ ┣ 📂 assets/ # Images, icons, logos
-┃ ┣ App.js # Main layout
-┃ ┗ index.js # Entry point
-┣ package.json
-┗ README.md
+ ┣ 📂 public/          # Static assets (favicon, index.html)
+ ┣ 📂 src/
+ ┃ ┣ 📂 components/    # All the reusable UI pieces (Navbar, Footer, Cards)
+ ┃ ┣ 📂 assets/        # Images, icons, logos, and fonts
+ ┃ ┣ App.js            # Main layout and routing configuration
+ ┃ ┗ index.js          # Entry point of the application
+ ┣ package.json        # Dependencies and scripts
+ ┗ README.md           # Project documentation
 
 ---
 
@@ -83,5 +86,3 @@ I’m always open to **collaboration, ideas, or just a friendly tech chat** 😄
 - GitHub: [AchrafElMakaoui](https://github.com/achrafelmakaoui)  
 - Portfolio: [achrafelmakaoui.com](https://achrafelmakaoui.com)
 
-# 4️⃣ Start the development server
-npm start
