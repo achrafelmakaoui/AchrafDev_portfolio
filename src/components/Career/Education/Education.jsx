@@ -9,7 +9,7 @@ const Education = () => {
                 <li className='timelineli'>
                     <div className="timeline-content">
                         <h1>ENSET MOHAMMEDIA - MASTER SDIA</h1>
-                        <h2>Software Engineer & Data Scientist | 2024 – Present</h2>
+                        <h2>Software Engineer & Data Scientist | 2025 – Present</h2>
                         <ul className='educationitem'>
                             <li>
                                 <span>Advanced Machine Learning & Deep Learning</span>
