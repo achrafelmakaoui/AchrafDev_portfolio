@@ -47,7 +47,7 @@ cd AchrafDev_portfolio
 
 # 3️⃣ Install dependencies
 npm install
-
+```
 # 🚀 Run & Explore
 
 Open [http://localhost:3000](http://localhost:3000) in your browser and **see the magic live** ✨
