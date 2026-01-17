@@ -8,6 +8,7 @@ import Php from '../images/backend/php.webp'
 import Python from '../images/backend/python.svg'
 import Cassandra from '../images/backend/cassandra.webp'
 import Redis from '../images/backend/redis.svg'
+import Java from '../images/backend/java.png'
 
 const BackSkillsImages = {
     Express: Express,
@@ -20,6 +21,7 @@ const BackSkillsImages = {
     Cassandra: Cassandra,
     Redis: Redis,
     Sql: Sql,
+    Java: Java,
 };
 
 export default BackSkillsImages;

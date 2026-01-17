@@ -157,6 +157,10 @@ const SkillsPage = () => {
                     <span><img style={{ width:'115px',height:'115px'}} src={BackSkillsImages.Python} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Python'/></span>
                     <h2>Python</h2>
                   </div>
+                  <div className='skillsLogosItems'>
+                    <span><img style={{ width:'80px',height:'80px'}} src={BackSkillsImages.Java} loading="lazy" title='Achraf El Makaoui, Backend skills' alt='Achraf El Makaoui, Java'/></span>
+                    <h2>Java</h2>
+                  </div>
                 </motion.div>
             }
             {DataSkills && 

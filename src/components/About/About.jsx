@@ -95,7 +95,7 @@ const About = () => {
                                 <div className="bnr-card-title"><h1>Achraf El Makaoui</h1></div>
                                 <div className="bnr-card-subtitle"><h2>Full Stack Developer</h2></div>
                                 <div className="bnr-card-description">
-                                    <p>I'm a full stack developer with 4 years of experience, building fast, responsive web apps with clean code. With a Big Data degree, I bring a data-driven approach to development and continue to grow in Data Science and Engineering.</p>
+                                    <p>I'm a full stack developer with 5 years of experience, building fast, responsive web apps with clean code. With a Big Data degree, I bring a data-driven approach to development and continue to grow in Data Science and Engineering.</p>
                                 </div>
                             </div>
                         </div>
