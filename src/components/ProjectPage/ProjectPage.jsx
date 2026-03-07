@@ -9,6 +9,7 @@ const ProjectPage = () => {
   
   const webProjects = projectsData.web;
   const dataScienceProjects = projectsData.datascience;
+  const desktopProjects = projectsData.desktop;
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
@@ -16,7 +17,10 @@ const ProjectPage = () => {
 
 
   const renderProjects = (category) => {
-    const projects = category === 'Web' ? webProjects : dataScienceProjects;
+    const projects = 
+      category === 'Web' ? webProjects : 
+      category === 'Data Science' ? dataScienceProjects : 
+      desktopProjects;
     return (
       <motion.div className="box" key={category} initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -60, opacity: 0 }} transition={{ duration: 1 }}>
         {projects.map((project) => {
@@ -32,7 +36,7 @@ const ProjectPage = () => {
                   <p>{project.description}</p>
                 </div>
               </Link>
-            </div>
+            </div> 
           );
         })}
       </motion.div>
@@ -58,6 +62,12 @@ const ProjectPage = () => {
             onClick={() => handleCategoryClick('Data Science')}
           >
             Data Science
+          </span>
+          <span
+            className={`custom-button-projects capitalize ${activeCategory === 'Desktop' ? 'active' : ''}`}
+            onClick={() => handleCategoryClick('Desktop')}
+          >
+            Desktop
           </span>
         </div>
         <div className="projects-grid">

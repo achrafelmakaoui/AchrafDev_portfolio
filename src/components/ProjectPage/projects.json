@@ -1,6 +1,29 @@
 {
   "web": [
     {
+      "title": "8 Pool Scorer",
+      "slug": "8poolscorer",
+      "type": "web",
+      "thumbnail": "8poolscorer.webp",
+      "description": "A real-time billiards scoreboard controlled from your phone and displayed on TV, built for pool clubs and tournament organizers running on local Wi-Fi.",
+      "status": "Private",
+      "liveDemo": "https://8poolscorer.com/",
+      "details": {
+        "image1": "8POOLSCORER1.webp",
+        "image2": "8POOLSCORER2.webp",
+        "image3": "8POOLSCORER3.webp",
+        "image4": "8POOLSCORER4.webp",
+        "image5": "8POOLSCORER5.webp",
+        "date": "July 13, 2025",
+        "whatIsThisDescription": "8poolscorer is a multi-platform digital scoreboard system built for 8-ball pool and billiards tournaments. It replaces traditional manual scorekeeping with a clean, real-time solution that spans three connected components: an Android TV scoreboard app that displays match data to players and spectators, a React Native mobile controller app that lets the referee manage everything from their phone, and a local Node.js server that bridges both devices over Wi-Fi using WebSocket communication. The system works entirely offline, making it ideal for pool clubs, bars, cafés, and private tournament events without requiring any internet connection.",
+        "whyDescription": "Pool clubs and tournament organizers still rely on whiteboards and verbal scoring, which causes confusion and reduces the professional feel of matches. 8 pool scorer was built to bring a modern, automated scoreboard experience to everyday venues — giving players, referees, and spectators a clear, real-time view of the match at all times. The goal was to make professional tournament management accessible and affordable, requiring only a TV, a smartphone, and a PC to run the entire system.",
+        "techStack": ["React Native", "Node.js", "Express.js", "Socket.IO", "Android TV", "WebSockets", "Local Wi-Fi"],
+        "keyFeatures": "Scores update in real time across all devices the moment the referee taps the mobile controller, with the entire sync happening in milliseconds over WebSocket. The mobile app gives full match control including adding and subtracting points, starting and stopping a shot timer with extension support, setting a race-to target score, assigning ball colors, and entering player names. The TV scoreboard displays all match data in a clean layout optimized for large screens and distance viewing, and automatically switches to a winner screen when the race-to score is reached. The entire system runs on local Wi-Fi with no internet dependency, making it reliable in any venue.",
+        "role": "I designed and developed the full system architecture across all three platforms. This included building the React Native mobile controller app with all match control features, developing the Android TV scoreboard interface optimized for large-screen display, and setting up the Node.js local server with Socket.IO to handle real-time bidirectional communication between devices. I also designed the overall UI, the winner display screen, and structured the WebSocket event system that keeps all components synchronized instantly.",
+        "challengesSolutions": "The main challenge was achieving truly instant synchronization between the mobile app and the TV display without relying on internet infrastructure. This was solved by using Socket.IO over a local Wi-Fi network, which provided reliable sub-millisecond communication between devices. Designing the TV scoreboard UI required special consideration for readability at distance — large typography, high contrast, and a minimal layout were prioritized. Making the system easy to install for non-technical users like bar owners and club managers also required simplifying the setup process into clear steps with a PDF guide and pre-configured app files."
+      }
+    },
+    {
       "title": "SAMQ E-Learning",
       "slug": "samq-e-learning",
       "type": "web",
@@ -136,6 +159,32 @@
         "keyFeatures":"The system includes a Taxi Driver Loyalty Program, allowing drivers to earn points for refueling, which can be redeemed at station shops. To ensure transaction security, fraud detection is implemented using OCR and AI for real-time validation. Dynamic dashboards powered by Power BI provide real-time insights into fuel sales. Additionally, the admin management system enables the addition, updating, and deletion of taxi drivers, supervisors, pompists, and shop supervisors. To streamline operations, a QR code scanning feature allows pompists to quickly register transactions, minimizing manual input time and improving efficiency.",
         "role":"I was responsible for full-stack development, building both the React.js frontend and the Express.js + FastAPI backend. I implemented Google Cloud Vision OCR for fraud detection, integrated Power BI dashboards, designed the MongoDB Atlas database structure, and developed functionalities for managing taxi drivers, supervisors, pompists, and shop supervisors. Additionally, I implemented a QR code scanning feature to streamline fuel transaction processing.",
         "challengesSolutions":"The project faced several key challenges, each addressed with tailored solutions. To increase taxi driver loyalty, a reward system was implemented, encouraging drivers to refuel at Sopetrole stations and redeem points at station shops. To detect fraudulent fuel transactions, Google Cloud Vision OCR was integrated for real-time verification, ensuring transaction authenticity. For real-time fuel sales insights, interactive dashboards using Power BI were developed, providing clear and actionable data. Lastly, to reduce transaction processing time for pompists, a QR code scanning feature was introduced, enabling quick and efficient data entry, minimizing manual workload, and enhancing overall operational efficiency."
+      }
+    }
+  ],
+  "desktop": [
+    {
+      "title": "Smart Task Manager",
+      "slug": "smart-task-manager",
+      "type": "desktop",
+      "thumbnail": "taskiq.webp",
+      "description": "An intelligent desktop task manager with AI-powered natural language parsing, real-time peer-to-peer collaboration, and productivity analytics — built with Java & JavaFX.",
+      "status": "Public",
+      "github": "https://github.com/SmartTasker-Team/Smart-Task-Manager-with-AI-Integration/tree/develop",
+      "liveDemo": "https://drive.google.com/file/d/1L7ek5cW4bdXixvNFAt0y7uj_P4laxtc0/view?usp=sharing",
+      "details": {
+        "image1": "TASKIQ1.webp",
+        "image2": "TASKIQ2.webp",
+        "image3": "TASKIQ3.webp",
+        "image4": "TASKIQ4.webp",
+        "image5": "TASKIQ5.webp",
+        "date": "Feb 14, 2026",
+        "whatIsThisDescription": "Task IQ is an AI-powered collaborative task management desktop application built with Java 23 and JavaFX. It enables users to create, organize, and track tasks using natural language input, which is parsed and structured automatically by the Gemini AI engine. The application follows an Offline-First architecture, combining a local SQLite database with a remote PostgreSQL server, ensuring full functionality even without an internet connection. It also features peer-to-peer task sharing over local networks via custom TCP/UDP socket communication, Google Calendar synchronization, voice input through Vosk speech recognition, and a real-time analytics dashboard for productivity insights.",
+        "whyDescription": "Modern task managers are either too simple to handle real team workflows or too cloud-dependent to function reliably in constrained environments. Task IQ was built to bridge that gap — combining the speed and privacy of a native desktop app with the intelligence of a large language model. The goal was to eliminate friction in task creation through natural language, enable seamless collaboration without requiring external servers, and give users actionable productivity feedback through AI-driven insights, all within a clean, professional interface.",
+        "techStack": ["Java 23", "JavaFX 21", "SQLite", "PostgreSQL", "Gemini API", "Vosk", "Google Calendar API", "Maven", "TCP/UDP Sockets"],
+        "keyFeatures": "Tasks can be created using plain conversational language — the Gemini AI engine extracts the title, due date, priority, and category automatically. Tasks are classified using the Eisenhower Matrix into four priority states for better focus. The Offline-First dual-database strategy ensures instant local writes to SQLite with background sync to PostgreSQL. Peer-to-peer collaboration is enabled through zero-config UDP peer discovery and reliable TCP data transfer on the local network. An analytics dashboard visualizes productivity trends, task status distribution, and category breakdowns using live charts. Google Calendar integration automatically syncs tasks to the user's schedule, and Vosk enables hands-free voice input for accessibility.",
+        "role": "I was responsible for the entire presentation layer of the application. This included designing and building all UI screens and components using JavaFX and FXML, implementing the MVC architecture with reusable controllers, and ensuring a clean separation between the UI and the business logic. I connected all backend services — including the AI parser, database repositories, and network sync — to their respective controllers. I also handled asynchronous UI updates using Platform.runLater() to keep the interface responsive during heavy operations like API calls and peer synchronization, and built the modal dialog system for task creation, editing, team management, and productivity audit views.",
+        "challengesSolutions": "One of the main challenges was keeping the UI fully responsive while executing heavy background tasks like Gemini API calls, TCP synchronization, and database queries. This was solved by strictly offloading all I/O to background threads and marshaling results back to the JavaFX Application Thread safely. Another challenge was designing a modular component architecture that could scale — solved by adopting a ViewFactory pattern for centralized navigation and lazy controller initialization. Handling the dual-database strategy required careful synchronization logic to ensure local SQLite writes were correctly propagated to PostgreSQL when connectivity was restored, while maintaining data integrity through semantic versioning and conflict resolution."
       }
     }
   ]

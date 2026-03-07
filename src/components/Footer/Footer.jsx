@@ -17,7 +17,7 @@ const Footer = () => {
     <section className='footer-section' id='footer'>
         <div className='footerContainer'>
             <div className='footer-content'>
-                <div className="copyright"><span>©2025 ACHRAF EL MAKAOUI</span></div>
+                <div className="copyright"><span>©2026 ACHRAF EL MAKAOUI</span></div>
                 <div className="logo-container">
                     {theme==='light' && <><Link to='/' onClick={handleImageClick}><img src={logo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
                     {theme==='dark' && <><Link to='/' onClick={handleImageClick}><img src={WLogo} loading="lazy" alt="Achraf El Makaoui Logo" title="Achraf El Makaoui Logo"/></Link></>}
